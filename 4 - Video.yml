@@ -3637,13 +3637,12 @@
       }
     },
     {
-      "name": "Video - Check is_dv (DV copy stream) 🔍",
+      "name": "Video - Detect Dolby Vision (fresh ffprobe) 🔍",
       "sourceRepo": "Community",
-      "pluginName": "checkFlowVariable",
+      "pluginName": "customFunction",
       "version": "1.0.0",
       "inputsDB": {
-        "variable": "{{{args.variables.user.is_dv}}}",
-        "value": "true"
+        "code": "module.exports = async (args) => { const { spawnSync } = require('child_process'); let hasDV = false; try { const file = args.inputFileObj.file; const ffprobePath = args.ffmpegPath ? args.ffmpegPath.replace(/ffmpeg$/i, 'ffprobe') : 'ffprobe'; const result = spawnSync(ffprobePath, ['-v', 'quiet', '-show_streams', file], { timeout: 30000, encoding: 'utf8' }); const out = (result.stdout || '') + (result.stderr || ''); hasDV = out.toLowerCase().includes('dovi_configuration_record'); } catch(e) { hasDV = false; } return { outputFileObj: args.inputFileObj, outputNumber: hasDV ? 1 : 2, variables: args.variables }; };"
       },
       "id": "DV_check_video",
       "position": {
