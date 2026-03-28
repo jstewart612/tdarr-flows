@@ -377,7 +377,7 @@
       "fpEnabled": true
     },
     {
-      "name": "ℹ️ The Quality Setting CPU will use.  Scale:\nveryfast, faster, fast, medium, slow, slower, veryslow",
+      "name": "ℹ️ The Quality Setting CPU (libsvtav1) will use. Scale: 0 (slowest/best quality) to 13 (fastest/lowest quality). Default: 6 (medium).",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -395,7 +395,7 @@
       "version": "1.0.0",
       "inputsDB": {
         "variable": "fl_cpu_main",
-        "value": "lookahead=32"
+        "value": ""
       },
       "id": "CfQ5R76K8",
       "position": {
@@ -405,7 +405,7 @@
       "fpEnabled": true
     },
     {
-      "name": "ℹ️ Fine tuning of the CPU command",
+      "name": "ℹ️ Fine tuning of the CPU command (libsvtav1). fl_cpu_main is appended as extra args (e.g. -svtav1-params key=val). Leave empty for defaults.",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -423,7 +423,7 @@
       "version": "1.0.0",
       "inputsDB": {
         "variable": "fl_cpu_quality",
-        "value": "-preset medium"
+        "value": "-preset 6"
       },
       "id": "KtEhs8mRz",
       "position": {
@@ -433,7 +433,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Variables - Video Encoding Customize CPU libx265 ℹ️",
+      "name": "Variables - Video Encoding Customize CPU libsvtav1 ℹ️",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -473,7 +473,7 @@
       "fpEnabled": true
     },
     {
-      "name": "ℹ️\n- Treat as Beta software, do not run this on your main library\n- Currently setup to be used with an Input and an Output Directory.\n- Works with HDR, but NOT DV.  Do not process DV and HDR+ with this, could cause playback errors.",
+      "name": "ℹ️\n- Treat as Beta software, do not run this on your main library\n- Encodes to AV1 (av1_nvenc/av1_qsv/av1_amf/av1_vaapi/libsvtav1)\n- Works with HDR. DV files are detected and video-copied as-is to preserve Dolby Vision metadata.",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -615,7 +615,7 @@
       "version": "1.0.0",
       "inputsDB": {
         "variable": "fl_nvenc_b-frames",
-        "value": "-bf 4"
+        "value": ""
       },
       "id": "2hKuMEpT1",
       "position": {
@@ -625,7 +625,7 @@
       "fpEnabled": true
     },
     {
-      "name": "ℹ️ If you have 2000 series Nvidia and up, then enable b frames:\n-bf 4\n\nIf you have an older card, then disable the plugin",
+      "name": "ℹ️ B-frames are not supported by av1_nvenc. fl_nvenc_b-frames is kept for compatibility but must remain empty.",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",

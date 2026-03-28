@@ -1058,7 +1058,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - is not hevc ℹ️",
+      "name": "Video - is not av1 ℹ️",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -1070,7 +1070,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - is hevc ✅",
+      "name": "Video - is av1 ✅",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -1082,7 +1082,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Process hevc enabled ✅",
+      "name": "Video - Process av1 enabled ✅",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -1110,7 +1110,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - process hevc disabled ℹ️",
+      "name": "Video - process av1 disabled ℹ️",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -1122,12 +1122,12 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check if do_hevc 🔍",
+      "name": "Video - Check if do_av1 🔍",
       "sourceRepo": "Community",
       "pluginName": "checkFlowVariable",
       "version": "1.0.0",
       "inputsDB": {
-        "variable": "{{{args.userVariables.library.do_hevc}}}",
+        "variable": "{{{args.userVariables.library.do_av1}}}",
         "value": "true"
       },
       "id": "Ptb_fuRE1",
@@ -1138,13 +1138,13 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - crf hevc_cpu 📼",
+      "name": "Video - Encode Main Arg - crf av1_cpu 📼",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
       "inputsDB": {
         "inputArguments": "",
-        "outputArguments": "-crf {{{args.userVariables.library.v_cq}}} {{{args.variables.user.fl_cpu_quality}}} -x265-params {{{args.variables.user.fl_cpu_main}}}"
+        "outputArguments": "-crf {{{args.userVariables.library.v_cq}}} {{{args.variables.user.fl_cpu_quality}}}"
       },
       "id": "iZuCFsZ2C",
       "position": {
@@ -1154,7 +1154,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - cq hevc_qsv 📼",
+      "name": "Video - Encode Main Arg - cq av1_qsv 📼",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -1170,13 +1170,13 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - cq hevc_nvenc 📼",
+      "name": "Video - Encode Main Arg - cq av1_nvenc 📼",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
       "inputsDB": {
         "inputArguments": "",
-        "outputArguments": "-cq {{{args.userVariables.library.v_cq}}} {{{args.variables.user.fl_nvenc_quality}}} {{{args.variables.user.fl_nvenc_b-frames}}} {{{args.variables.user.fl_nvenc_main}}}"
+        "outputArguments": "-cq {{{args.userVariables.library.v_cq}}} {{{args.variables.user.fl_nvenc_quality}}} {{{args.variables.user.fl_nvenc_main}}}"
       },
       "id": "V-qrLnamM",
       "position": {
@@ -1234,12 +1234,12 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_vaapi 🔍",
+      "name": "Video - Check Node Hardware Encoder av1_vaapi 🔍",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
       "inputsDB": {
-        "hardwareEncoder": "hevc_vaapi"
+        "hardwareEncoder": "av1_vaapi"
       },
       "id": "emc1x3a8s",
       "position": {
@@ -1249,12 +1249,12 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_amf 🔍",
+      "name": "Video - Check Node Hardware Encoder av1_amf 🔍",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
       "inputsDB": {
-        "hardwareEncoder": "hevc_amf"
+        "hardwareEncoder": "av1_amf"
       },
       "id": "pGa5ylhp_",
       "position": {
@@ -1264,12 +1264,12 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_qsv 🔍",
+      "name": "Video - Check Node Hardware Encoder av1_qsv 🔍",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
       "inputsDB": {
-        "hardwareEncoder": "hevc_qsv"
+        "hardwareEncoder": "av1_qsv"
       },
       "id": "YXDE0BvT_",
       "position": {
@@ -1279,7 +1279,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_nvenc 🔍",
+      "name": "Video - Check Node Hardware Encoder av1_nvenc 🔍",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
@@ -1290,7 +1290,7 @@
       },
       "fpEnabled": true,
       "inputsDB": {
-        "hardwareEncoder": "hevc_nvenc"
+        "hardwareEncoder": "av1_nvenc"
       }
     },
     {
@@ -1382,7 +1382,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 4k hevc_vaapi 📼",
+      "name": "Video - Encode Main Arg - 4k av1_vaapi 📼",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -1398,12 +1398,12 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_vaapi 🔍",
+      "name": "Video - Check Node Hardware Encoder av1_vaapi 🔍",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
       "inputsDB": {
-        "hardwareEncoder": "hevc_vaapi"
+        "hardwareEncoder": "av1_vaapi"
       },
       "id": "mxu7eKihQ",
       "position": {
@@ -1413,7 +1413,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 4k hevc_amf 📼",
+      "name": "Video - Encode Main Arg - 4k av1_amf 📼",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -1429,12 +1429,12 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_amf 🔍",
+      "name": "Video - Check Node Hardware Encoder av1_amf 🔍",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
       "inputsDB": {
-        "hardwareEncoder": "hevc_amf"
+        "hardwareEncoder": "av1_amf"
       },
       "id": "dwXWzYnXE",
       "position": {
@@ -1444,7 +1444,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 4k hevc_qsv 📼",
+      "name": "Video - Encode Main Arg - 4k av1_qsv 📼",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -1460,13 +1460,13 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 4k hevc_nvenc 📼",
+      "name": "Video - Encode Main Arg - 4k av1_nvenc 📼",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
       "inputsDB": {
         "inputArguments": "",
-        "outputArguments": "-b:v {{{args.variables.bitrate_4k}}} -maxrate {{{args.variables.maxrate_4k}}} -bufsize {{{args.variables.bufsize_4k}}} -rc vbr -rc-lookahead 32 {{{args.variables.user.fl_nvenc_quality}}} {{{args.variables.user.fl_nvenc_b-frames}}} {{{args.variables.user.fl_nvenc_main}}}"
+        "outputArguments": "-b:v {{{args.variables.bitrate_4k}}} -maxrate {{{args.variables.maxrate_4k}}} -bufsize {{{args.variables.bufsize_4k}}} -rc vbr -rc-lookahead 32 {{{args.variables.user.fl_nvenc_quality}}} {{{args.variables.user.fl_nvenc_main}}}"
       },
       "id": "CyFFBF_am",
       "position": {
@@ -1476,12 +1476,12 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_qsv 🔍",
+      "name": "Video - Check Node Hardware Encoder av1_qsv 🔍",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
       "inputsDB": {
-        "hardwareEncoder": "hevc_qsv"
+        "hardwareEncoder": "av1_qsv"
       },
       "id": "KREXxLfms",
       "position": {
@@ -1491,7 +1491,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_nvenc 🔍",
+      "name": "Video - Check Node Hardware Encoder av1_nvenc 🔍",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
@@ -1502,7 +1502,7 @@
       },
       "fpEnabled": true,
       "inputsDB": {
-        "hardwareEncoder": "hevc_nvenc"
+        "hardwareEncoder": "av1_nvenc"
       }
     },
     {
@@ -1518,13 +1518,13 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 4k libx265 CPU 📼",
+      "name": "Video - Encode Main Arg - 4k libsvtav1 CPU 📼",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
       "inputsDB": {
         "inputArguments": "",
-        "outputArguments": "-b:v {{{args.variables.bitrate_4k}}} -maxrate {{{args.variables.maxrate_4k}}} -bufsize {{{args.variables.bufsize_4k}}} {{{args.variables.user.fl_cpu_quality}}} -x265-params {{{args.variables.user.fl_cpu_main}}}"
+        "outputArguments": "-b:v {{{args.variables.bitrate_4k}}} -maxrate {{{args.variables.maxrate_4k}}} -bufsize {{{args.variables.bufsize_4k}}} {{{args.variables.user.fl_cpu_quality}}}"
       },
       "id": "_XU-XYw50",
       "position": {
@@ -1546,13 +1546,13 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 4k_hdr libx265 CPU 📼",
+      "name": "Video - Encode Main Arg - 4k_hdr libsvtav1 CPU 📼",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
       "inputsDB": {
         "inputArguments": "",
-        "outputArguments": "-b:v {{{args.variables.bitrate_4k_hdr}}} -maxrate {{{args.variables.maxrate_4k_hdr}}} -bufsize {{{args.variables.bufsize_4k_hdr}}} {{{args.variables.user.fl_cpu_quality}}} -x265-params {{{args.variables.user.fl_cpu_main}}} -color_primaries bt2020 -color_trc smpte2084 -colorspace bt2020nc -color_range tv"
+        "outputArguments": "-b:v {{{args.variables.bitrate_4k_hdr}}} -maxrate {{{args.variables.maxrate_4k_hdr}}} -bufsize {{{args.variables.bufsize_4k_hdr}}} {{{args.variables.user.fl_cpu_quality}}} -color_primaries bt2020 -color_trc smpte2084 -colorspace bt2020nc -color_range tv"
       },
       "id": "JKJlbvnba",
       "position": {
@@ -1586,7 +1586,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 4k_hdr hevc_vaapi 📼",
+      "name": "Video - Encode Main Arg - 4k_hdr av1_vaapi 📼",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -1602,7 +1602,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 4k_hdr hevc_amf 📼",
+      "name": "Video - Encode Main Arg - 4k_hdr av1_amf 📼",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -1618,12 +1618,12 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_vaapi 🔍",
+      "name": "Video - Check Node Hardware Encoder av1_vaapi 🔍",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
       "inputsDB": {
-        "hardwareEncoder": "hevc_vaapi"
+        "hardwareEncoder": "av1_vaapi"
       },
       "id": "C6nHbFT6U",
       "position": {
@@ -1633,7 +1633,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 4k_hdr hevc_qsv 📼",
+      "name": "Video - Encode Main Arg - 4k_hdr av1_qsv 📼",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -1649,12 +1649,12 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_amf 🔍",
+      "name": "Video - Check Node Hardware Encoder av1_amf 🔍",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
       "inputsDB": {
-        "hardwareEncoder": "hevc_amf"
+        "hardwareEncoder": "av1_amf"
       },
       "id": "7kuZbqItr",
       "position": {
@@ -1664,12 +1664,12 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_qsv 🔍",
+      "name": "Video - Check Node Hardware Encoder av1_qsv 🔍",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
       "inputsDB": {
-        "hardwareEncoder": "hevc_qsv"
+        "hardwareEncoder": "av1_qsv"
       },
       "id": "m32fDzh-i",
       "position": {
@@ -1679,7 +1679,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_nvenc 🔍",
+      "name": "Video - Check Node Hardware Encoder av1_nvenc 🔍",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
@@ -1690,17 +1690,17 @@
       },
       "fpEnabled": true,
       "inputsDB": {
-        "hardwareEncoder": "hevc_nvenc"
+        "hardwareEncoder": "av1_nvenc"
       }
     },
     {
-      "name": "Video - Encode Main Arg - 4k_hdr hevc_nvenc 📼",
+      "name": "Video - Encode Main Arg - 4k_hdr av1_nvenc 📼",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
       "inputsDB": {
         "inputArguments": "",
-        "outputArguments": "-b:v {{{args.variables.bitrate_4k_hdr}}} -maxrate {{{args.variables.maxrate_4k_hdr}}} -bufsize {{{args.variables.bufsize_4k_hdr}}} -rc vbr -rc-lookahead 32 {{{args.variables.user.fl_nvenc_quality}}} {{{args.variables.user.fl_nvenc_b-frames}}} {{{args.variables.user.fl_nvenc_main}}} -color_primaries bt2020 -color_trc smpte2084 -colorspace bt2020nc -color_range tv"
+        "outputArguments": "-b:v {{{args.variables.bitrate_4k_hdr}}} -maxrate {{{args.variables.maxrate_4k_hdr}}} -bufsize {{{args.variables.bufsize_4k_hdr}}} -rc vbr -rc-lookahead 32 {{{args.variables.user.fl_nvenc_quality}}} {{{args.variables.user.fl_nvenc_main}}} -color_primaries bt2020 -color_trc smpte2084 -colorspace bt2020nc -color_range tv"
       },
       "id": "Q5gU7QKV5",
       "position": {
@@ -1746,7 +1746,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 1440p hevc_vaapi 📼",
+      "name": "Video - Encode Main Arg - 1440p av1_vaapi 📼",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -1762,7 +1762,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 1440p hevc_amf 📼",
+      "name": "Video - Encode Main Arg - 1440p av1_amf 📼",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -1778,13 +1778,13 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 1440p hevc_nvenc 📼",
+      "name": "Video - Encode Main Arg - 1440p av1_nvenc 📼",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
       "inputsDB": {
         "inputArguments": "",
-        "outputArguments": "-b:v {{{args.variables.bitrate_1440p}}} -maxrate {{{args.variables.maxrate_1440p}}} -bufsize {{{args.variables.bufsize_1440p}}} -rc vbr -rc-lookahead 32 {{{args.variables.user.fl_nvenc_quality}}} {{{args.variables.user.fl_nvenc_b-frames}}} {{{args.variables.user.fl_nvenc_main}}}"
+        "outputArguments": "-b:v {{{args.variables.bitrate_1440p}}} -maxrate {{{args.variables.maxrate_1440p}}} -bufsize {{{args.variables.bufsize_1440p}}} -rc vbr -rc-lookahead 32 {{{args.variables.user.fl_nvenc_quality}}} {{{args.variables.user.fl_nvenc_main}}}"
       },
       "id": "Nh35eGjUX",
       "position": {
@@ -1794,7 +1794,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 1440p hevc_qsv 📼",
+      "name": "Video - Encode Main Arg - 1440p av1_qsv 📼",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -1810,13 +1810,13 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 1440p libx265 CPU 📼",
+      "name": "Video - Encode Main Arg - 1440p libsvtav1 CPU 📼",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
       "inputsDB": {
         "inputArguments": "",
-        "outputArguments": "-b:v {{{args.variables.bitrate_1440p}}} -maxrate {{{args.variables.maxrate_1440p}}} -bufsize {{{args.variables.bufsize_1440p}}} {{{args.variables.user.fl_cpu_quality}}} -x265-params {{{args.variables.user.fl_cpu_main}}}"
+        "outputArguments": "-b:v {{{args.variables.bitrate_1440p}}} -maxrate {{{args.variables.maxrate_1440p}}} -bufsize {{{args.variables.bufsize_1440p}}} {{{args.variables.user.fl_cpu_quality}}}"
       },
       "id": "i0rxcp9di",
       "position": {
@@ -1838,12 +1838,12 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_vaapi 🔍",
+      "name": "Video - Check Node Hardware Encoder av1_vaapi 🔍",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
       "inputsDB": {
-        "hardwareEncoder": "hevc_vaapi"
+        "hardwareEncoder": "av1_vaapi"
       },
       "id": "Vj62TSSLG",
       "position": {
@@ -1853,12 +1853,12 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_amf 🔍",
+      "name": "Video - Check Node Hardware Encoder av1_amf 🔍",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
       "inputsDB": {
-        "hardwareEncoder": "hevc_amf"
+        "hardwareEncoder": "av1_amf"
       },
       "id": "bSpeYKrFJ",
       "position": {
@@ -1868,12 +1868,12 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_qsv 🔍",
+      "name": "Video - Check Node Hardware Encoder av1_qsv 🔍",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
       "inputsDB": {
-        "hardwareEncoder": "hevc_qsv"
+        "hardwareEncoder": "av1_qsv"
       },
       "id": "QvhsqHzcq",
       "position": {
@@ -1883,7 +1883,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_nvenc 🔍",
+      "name": "Video - Check Node Hardware Encoder av1_nvenc 🔍",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
@@ -1894,7 +1894,7 @@
       },
       "fpEnabled": true,
       "inputsDB": {
-        "hardwareEncoder": "hevc_nvenc"
+        "hardwareEncoder": "av1_nvenc"
       }
     },
     {
@@ -1910,13 +1910,13 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 1080p hevc_nvenc 📼",
+      "name": "Video - Encode Main Arg - 1080p av1_nvenc 📼",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
       "inputsDB": {
         "inputArguments": "",
-        "outputArguments": "-b:v {{{args.variables.bitrate_1080p}}} -maxrate {{{args.variables.maxrate_1080p}}} -bufsize {{{args.variables.bufsize_1080p}}} -rc vbr -rc-lookahead 32 {{{args.variables.user.fl_nvenc_quality}}} {{{args.variables.user.fl_nvenc_b-frames}}} {{{args.variables.user.fl_nvenc_main}}}"
+        "outputArguments": "-b:v {{{args.variables.bitrate_1080p}}} -maxrate {{{args.variables.maxrate_1080p}}} -bufsize {{{args.variables.bufsize_1080p}}} -rc vbr -rc-lookahead 32 {{{args.variables.user.fl_nvenc_quality}}} {{{args.variables.user.fl_nvenc_main}}}"
       },
       "id": "kxs7bHIlt",
       "position": {
@@ -1926,7 +1926,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 1080p hevc_qsv 📼",
+      "name": "Video - Encode Main Arg - 1080p av1_qsv 📼",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -1942,7 +1942,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 1080p hevc_amf 📼",
+      "name": "Video - Encode Main Arg - 1080p av1_amf 📼",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -1958,7 +1958,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 1080p hevc_vaapi 📼",
+      "name": "Video - Encode Main Arg - 1080p av1_vaapi 📼",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -1986,13 +1986,13 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 1080p libx265 CPU 📼",
+      "name": "Video - Encode Main Arg - 1080p libsvtav1 CPU 📼",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
       "inputsDB": {
         "inputArguments": "",
-        "outputArguments": "-b:v {{{args.variables.bitrate_1080p}}} -maxrate {{{args.variables.maxrate_1080p}}} -bufsize {{{args.variables.bufsize_1080p}}} {{{args.variables.user.fl_cpu_quality}}} -x265-params {{{args.variables.user.fl_cpu_main}}}"
+        "outputArguments": "-b:v {{{args.variables.bitrate_1080p}}} -maxrate {{{args.variables.maxrate_1080p}}} -bufsize {{{args.variables.bufsize_1080p}}} {{{args.variables.user.fl_cpu_quality}}}"
       },
       "id": "bP8F0AKuF",
       "position": {
@@ -2014,12 +2014,12 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_vaapi 🔍",
+      "name": "Video - Check Node Hardware Encoder av1_vaapi 🔍",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
       "inputsDB": {
-        "hardwareEncoder": "hevc_vaapi"
+        "hardwareEncoder": "av1_vaapi"
       },
       "id": "GH5BYuxMu",
       "position": {
@@ -2029,12 +2029,12 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_amf 🔍",
+      "name": "Video - Check Node Hardware Encoder av1_amf 🔍",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
       "inputsDB": {
-        "hardwareEncoder": "hevc_amf"
+        "hardwareEncoder": "av1_amf"
       },
       "id": "4jgRJ0JLM",
       "position": {
@@ -2044,12 +2044,12 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_qsv 🔍",
+      "name": "Video - Check Node Hardware Encoder av1_qsv 🔍",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
       "inputsDB": {
-        "hardwareEncoder": "hevc_qsv"
+        "hardwareEncoder": "av1_qsv"
       },
       "id": "n1226Hr4v",
       "position": {
@@ -2059,7 +2059,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_nvenc 🔍",
+      "name": "Video - Check Node Hardware Encoder av1_nvenc 🔍",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
@@ -2070,7 +2070,7 @@
       },
       "fpEnabled": true,
       "inputsDB": {
-        "hardwareEncoder": "hevc_nvenc"
+        "hardwareEncoder": "av1_nvenc"
       }
     },
     {
@@ -2086,13 +2086,13 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 720p libx265 CPU 📼",
+      "name": "Video - Encode Main Arg - 720p libsvtav1 CPU 📼",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
       "inputsDB": {
         "inputArguments": "",
-        "outputArguments": "-b:v {{{args.variables.bitrate_720p}}} -maxrate {{{args.variables.maxrate_720p}}} -bufsize {{{args.variables.bufsize_720p}}} {{{args.variables.user.fl_cpu_quality}}} -x265-params {{{args.variables.user.fl_cpu_main}}}"
+        "outputArguments": "-b:v {{{args.variables.bitrate_720p}}} -maxrate {{{args.variables.maxrate_720p}}} -bufsize {{{args.variables.bufsize_720p}}} {{{args.variables.user.fl_cpu_quality}}}"
       },
       "id": "qQ0b9XzII",
       "position": {
@@ -2126,7 +2126,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 720p hevc_vaapi 📼",
+      "name": "Video - Encode Main Arg - 720p av1_vaapi 📼",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -2142,7 +2142,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 720p hevc_amf 📼",
+      "name": "Video - Encode Main Arg - 720p av1_amf 📼",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -2158,7 +2158,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 720p hevc_qsv 📼",
+      "name": "Video - Encode Main Arg - 720p av1_qsv 📼",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -2174,13 +2174,13 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 720p hevc_nvenc 📼",
+      "name": "Video - Encode Main Arg - 720p av1_nvenc 📼",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
       "inputsDB": {
         "inputArguments": "",
-        "outputArguments": "-b:v {{{args.variables.bitrate_720p}}} -maxrate {{{args.variables.maxrate_720p}}} -bufsize {{{args.variables.bufsize_720p}}} -rc vbr -rc-lookahead 32 {{{args.variables.user.fl_nvenc_quality}}} {{{args.variables.user.fl_nvenc_b-frames}}} {{{args.variables.user.fl_nvenc_main}}}"
+        "outputArguments": "-b:v {{{args.variables.bitrate_720p}}} -maxrate {{{args.variables.maxrate_720p}}} -bufsize {{{args.variables.bufsize_720p}}} -rc vbr -rc-lookahead 32 {{{args.variables.user.fl_nvenc_quality}}} {{{args.variables.user.fl_nvenc_main}}}"
       },
       "id": "jF0eYot7m",
       "position": {
@@ -2190,12 +2190,12 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_vaapi 🔍",
+      "name": "Video - Check Node Hardware Encoder av1_vaapi 🔍",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
       "inputsDB": {
-        "hardwareEncoder": "hevc_vaapi"
+        "hardwareEncoder": "av1_vaapi"
       },
       "id": "JYur9jq4C",
       "position": {
@@ -2205,12 +2205,12 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_amf 🔍",
+      "name": "Video - Check Node Hardware Encoder av1_amf 🔍",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
       "inputsDB": {
-        "hardwareEncoder": "hevc_amf"
+        "hardwareEncoder": "av1_amf"
       },
       "id": "f3jgPL7fV",
       "position": {
@@ -2220,12 +2220,12 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_qsv 🔍",
+      "name": "Video - Check Node Hardware Encoder av1_qsv 🔍",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
       "inputsDB": {
-        "hardwareEncoder": "hevc_qsv"
+        "hardwareEncoder": "av1_qsv"
       },
       "id": "9WRT75lrG",
       "position": {
@@ -2235,7 +2235,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_nvenc 🔍",
+      "name": "Video - Check Node Hardware Encoder av1_nvenc 🔍",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
@@ -2246,7 +2246,7 @@
       },
       "fpEnabled": true,
       "inputsDB": {
-        "hardwareEncoder": "hevc_nvenc"
+        "hardwareEncoder": "av1_nvenc"
       }
     },
     {
@@ -2262,13 +2262,13 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 576p libx265 CPU 📼",
+      "name": "Video - Encode Main Arg - 576p libsvtav1 CPU 📼",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
       "inputsDB": {
         "inputArguments": "",
-        "outputArguments": "-b:v {{{args.variables.bitrate_576p}}} -maxrate {{{args.variables.maxrate_576p}}} -bufsize {{{args.variables.bufsize_576p}}} {{{args.variables.user.fl_cpu_quality}}} -x265-params {{{args.variables.user.fl_cpu_main}}}"
+        "outputArguments": "-b:v {{{args.variables.bitrate_576p}}} -maxrate {{{args.variables.maxrate_576p}}} -bufsize {{{args.variables.bufsize_576p}}} {{{args.variables.user.fl_cpu_quality}}}"
       },
       "id": "OPks33RLb",
       "position": {
@@ -2290,7 +2290,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 576p hevc_vaapi 📼",
+      "name": "Video - Encode Main Arg - 576p av1_vaapi 📼",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -2306,7 +2306,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 576p hevc_amf 📼",
+      "name": "Video - Encode Main Arg - 576p av1_amf 📼",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -2322,7 +2322,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 576phevc_qsv 📼",
+      "name": "Video - Encode Main Arg - 576pav1_qsv 📼",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -2338,13 +2338,13 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 576p hevc_nvenc 📼",
+      "name": "Video - Encode Main Arg - 576p av1_nvenc 📼",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
       "inputsDB": {
         "inputArguments": "",
-        "outputArguments": "-b:v {{{args.variables.bitrate_576p}}} -maxrate {{{args.variables.maxrate_576p}}} -bufsize {{{args.variables.bufsize_576p}}} -rc vbr -rc-lookahead 32 {{{args.variables.user.fl_nvenc_quality}}} {{{args.variables.user.fl_nvenc_b-frames}}} {{{args.variables.user.fl_nvenc_main}}}"
+        "outputArguments": "-b:v {{{args.variables.bitrate_576p}}} -maxrate {{{args.variables.maxrate_576p}}} -bufsize {{{args.variables.bufsize_576p}}} -rc vbr -rc-lookahead 32 {{{args.variables.user.fl_nvenc_quality}}} {{{args.variables.user.fl_nvenc_main}}}"
       },
       "id": "YFPx-BNVD",
       "position": {
@@ -2354,12 +2354,12 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_vaapi 🔍",
+      "name": "Video - Check Node Hardware Encoder av1_vaapi 🔍",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
       "inputsDB": {
-        "hardwareEncoder": "hevc_vaapi"
+        "hardwareEncoder": "av1_vaapi"
       },
       "id": "83HJLRooM",
       "position": {
@@ -2369,12 +2369,12 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_amf 🔍",
+      "name": "Video - Check Node Hardware Encoder av1_amf 🔍",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
       "inputsDB": {
-        "hardwareEncoder": "hevc_amf"
+        "hardwareEncoder": "av1_amf"
       },
       "id": "5JLcJ7l1d",
       "position": {
@@ -2384,12 +2384,12 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_qsv 🔍",
+      "name": "Video - Check Node Hardware Encoder av1_qsv 🔍",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
       "inputsDB": {
-        "hardwareEncoder": "hevc_qsv"
+        "hardwareEncoder": "av1_qsv"
       },
       "id": "JW_PEQBTw",
       "position": {
@@ -2399,7 +2399,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_nvenc 🔍",
+      "name": "Video - Check Node Hardware Encoder av1_nvenc 🔍",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
@@ -2410,7 +2410,7 @@
       },
       "fpEnabled": true,
       "inputsDB": {
-        "hardwareEncoder": "hevc_nvenc"
+        "hardwareEncoder": "av1_nvenc"
       }
     },
     {
@@ -2462,13 +2462,13 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 480p libx265 CPU 📼",
+      "name": "Video - Encode Main Arg - 480p libsvtav1 CPU 📼",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
       "inputsDB": {
         "inputArguments": "",
-        "outputArguments": "-b:v {{{args.variables.bitrate_480p}}} -maxrate {{{args.variables.maxrate_480p}}} -bufsize {{{args.variables.bufsize_480p}}} {{{args.variables.user.fl_cpu_quality}}} -x265-params {{{args.variables.user.fl_cpu_main}}}"
+        "outputArguments": "-b:v {{{args.variables.bitrate_480p}}} -maxrate {{{args.variables.maxrate_480p}}} -bufsize {{{args.variables.bufsize_480p}}} {{{args.variables.user.fl_cpu_quality}}}"
       },
       "id": "mCvQdZzsB",
       "position": {
@@ -2478,7 +2478,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 480p hevc_vaapi 📼",
+      "name": "Video - Encode Main Arg - 480p av1_vaapi 📼",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -2494,7 +2494,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 480p hevc_amf 📼",
+      "name": "Video - Encode Main Arg - 480p av1_amf 📼",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -2510,7 +2510,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 480p hevc_qsv 📼",
+      "name": "Video - Encode Main Arg - 480p av1_qsv 📼",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -2526,12 +2526,12 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_vaapi 🔍",
+      "name": "Video - Check Node Hardware Encoder av1_vaapi 🔍",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
       "inputsDB": {
-        "hardwareEncoder": "hevc_vaapi"
+        "hardwareEncoder": "av1_vaapi"
       },
       "id": "9dDHjQVAQ",
       "position": {
@@ -2541,12 +2541,12 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_amf 🔍",
+      "name": "Video - Check Node Hardware Encoder av1_amf 🔍",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
       "inputsDB": {
-        "hardwareEncoder": "hevc_amf"
+        "hardwareEncoder": "av1_amf"
       },
       "id": "L3SWrc-wc",
       "position": {
@@ -2556,12 +2556,12 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_qsv 🔍",
+      "name": "Video - Check Node Hardware Encoder av1_qsv 🔍",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
       "inputsDB": {
-        "hardwareEncoder": "hevc_qsv"
+        "hardwareEncoder": "av1_qsv"
       },
       "id": "MxcIeEjnJ",
       "position": {
@@ -2571,7 +2571,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_nvenc 🔍",
+      "name": "Video - Check Node Hardware Encoder av1_nvenc 🔍",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
@@ -2582,7 +2582,7 @@
       },
       "fpEnabled": true,
       "inputsDB": {
-        "hardwareEncoder": "hevc_nvenc"
+        "hardwareEncoder": "av1_nvenc"
       }
     },
     {
@@ -2598,13 +2598,13 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - Encoder Type libx265 CPU 📼",
+      "name": "Video - Encode Main Arg - Encoder Type libsvtav1 CPU 📼",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
       "inputsDB": {
         "inputArguments": "",
-        "outputArguments": "-c:v libx265"
+        "outputArguments": "-c:v libsvtav1"
       },
       "id": "J_Pszmry1",
       "position": {
@@ -2638,13 +2638,13 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - Encoder Type hevc_vaapi 📼",
+      "name": "Video - Encode Main Arg - Encoder Type av1_vaapi 📼",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
       "inputsDB": {
         "inputArguments": "",
-        "outputArguments": "-c:v hevc_vaapi"
+        "outputArguments": "-c:v av1_vaapi"
       },
       "id": "lmH_rPh3f",
       "position": {
@@ -2654,13 +2654,13 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - Encoder Type hevc_amf 📼",
+      "name": "Video - Encode Main Arg - Encoder Type av1_amf 📼",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
       "inputsDB": {
         "inputArguments": "",
-        "outputArguments": "-c:v hevc_amf"
+        "outputArguments": "-c:v av1_amf"
       },
       "id": "s_EST_2VU",
       "position": {
@@ -2670,12 +2670,12 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_vaapi 🔍",
+      "name": "Video - Check Node Hardware Encoder av1_vaapi 🔍",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
       "inputsDB": {
-        "hardwareEncoder": "hevc_vaapi"
+        "hardwareEncoder": "av1_vaapi"
       },
       "id": "DmdzAJSI3",
       "position": {
@@ -2685,12 +2685,12 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_amf 🔍",
+      "name": "Video - Check Node Hardware Encoder av1_amf 🔍",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
       "inputsDB": {
-        "hardwareEncoder": "hevc_amf"
+        "hardwareEncoder": "av1_amf"
       },
       "id": "uXG7N31s1",
       "position": {
@@ -2700,12 +2700,12 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_qsv 🔍",
+      "name": "Video - Check Node Hardware Encoder av1_qsv 🔍",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
       "inputsDB": {
-        "hardwareEncoder": "hevc_qsv"
+        "hardwareEncoder": "av1_qsv"
       },
       "id": "Td-fbBEUD",
       "position": {
@@ -2715,13 +2715,13 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - Encoder Type hevc_qsv 📼",
+      "name": "Video - Encode Main Arg - Encoder Type av1_qsv 📼",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
       "inputsDB": {
         "inputArguments": "",
-        "outputArguments": "-c:v hevc_qsv"
+        "outputArguments": "-c:v av1_qsv"
       },
       "id": "R3xHLKgAU",
       "position": {
@@ -2811,13 +2811,13 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - Encoder Type hevc_nvenc 📼",
+      "name": "Video - Encode Main Arg - Encoder Type av1_nvenc 📼",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
       "inputsDB": {
         "inputArguments": "",
-        "outputArguments": "-c:v hevc_nvenc "
+        "outputArguments": "-c:v av1_nvenc "
       },
       "id": "kNV2dDj7U",
       "position": {
@@ -3221,13 +3221,13 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 480p hevc_nvenc 📼",
+      "name": "Video - Encode Main Arg - 480p av1_nvenc 📼",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
       "inputsDB": {
         "inputArguments": "",
-        "outputArguments": "-b:v {{{args.variables.bitrate_480p}}} -maxrate {{{args.variables.maxrate_480p}}} -bufsize {{{args.variables.bufsize_480p}}} -rc vbr -rc-lookahead 32 {{{args.variables.user.fl_nvenc_quality}}} {{{args.variables.user.fl_nvenc_b-frames}}} {{{args.variables.user.fl_nvenc_main}}}"
+        "outputArguments": "-b:v {{{args.variables.bitrate_480p}}} -maxrate {{{args.variables.maxrate_480p}}} -bufsize {{{args.variables.bufsize_480p}}} -rc vbr -rc-lookahead 32 {{{args.variables.user.fl_nvenc_quality}}} {{{args.variables.user.fl_nvenc_main}}}"
       },
       "id": "R2VJtivho",
       "position": {
@@ -3406,10 +3406,13 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check if hevc 🔍",
+      "name": "Video - Check if av1 🔍",
       "sourceRepo": "Community",
-      "pluginName": "checkVideoCodec",
+      "pluginName": "customFunction",
       "version": "1.0.0",
+      "inputsDB": {
+        "code": "module.exports = async (args) => { const streams = (args.inputFileObj.ffProbeData || {}).streams || []; const isAV1 = streams.some(s => s.codec_type === 'video' && s.codec_name === 'av1'); return { outputFileObj: args.inputFileObj, outputNumber: isAV1 ? 1 : 2, variables: args.variables }; };"
+      },
       "id": "Kq7SA5w3K",
       "position": {
         "x": 1406.8857632582362,
@@ -3619,7 +3622,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_nvenc 🔍",
+      "name": "Video - Check Node Hardware Encoder av1_nvenc 🔍",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
@@ -3630,7 +3633,7 @@
       },
       "fpEnabled": true,
       "inputsDB": {
-        "hardwareEncoder": "hevc_nvenc"
+        "hardwareEncoder": "av1_nvenc"
       }
     },
     {
