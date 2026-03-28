@@ -1131,7 +1131,7 @@
       "pluginName": "customFunction",
       "version": "1.0.0",
       "inputsDB": {
-        "code": "module.exports = async (args) => { const streams = ((args.inputFileObj.ffProbeData || {}).streams || []); const hasDV = streams.some(function(s) { return (s.side_data_list || []).some(function(sd) { return (sd.type || '').toLowerCase().indexOf('dovi') !== -1; }); }); return { outputFileObj: args.inputFileObj, outputNumber: hasDV ? 1 : 2, variables: args.variables }; };"
+        "code": "module.exports = async (args) => { const { execSync } = require('child_process'); let hasDV = false; try { const file = args.inputFileObj.file; const ffprobePath = args.ffprobePath ? args.ffprobePath.replace(/ffmpeg$/i, 'ffprobe') : 'ffprobe'; const out = execSync('\"' + ffprobePath + '\" -v quiet -show_streams \"' + file.replace(/\"/g, '\\\\\"') + '\" 2>&1', { timeout: 30000 }).toString(); hasDV = out.toLowerCase().includes('dovi_configuration_record'); } catch(e) { hasDV = false; } return { outputFileObj: args.inputFileObj, outputNumber: hasDV ? 1 : 2, variables: args.variables }; };"
       },
       "id": "DV_detect_01",
       "position": {
