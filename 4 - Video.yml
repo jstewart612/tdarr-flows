@@ -5,7 +5,7 @@
   "tags": "",
   "flowPlugins": [
     {
-      "name": "Video - Encode 4k_hdr DISABLED DOESNT WORK ON ALL HDR PROFILES  ⚠️⚠️",
+      "name": "Video - Encode 4k_hdr DISABLED DOESNT WORK ON ALL HDR PROFILES  \u26a0\ufe0f\u26a0\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -17,7 +17,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check is_hdr 🔍",
+      "name": "Video - Check is_hdr \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkFlowVariable",
       "version": "1.0.0",
@@ -33,7 +33,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Go to Done ➡️",
+      "name": "Video - Go to Done \u27a1\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "goToFlow",
       "version": "2.0.0",
@@ -49,7 +49,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode 4k_hdr DISABLED DOESNT WORK ON ALL HDR PROFILES  ⚠️⚠️",
+      "name": "Video - Encode 4k_hdr DISABLED DOESNT WORK ON ALL HDR PROFILES  \u26a0\ufe0f\u26a0\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -61,7 +61,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Go to Autodetect Hardware cq ➡️",
+      "name": "Video - Go to Autodetect Hardware cq \u27a1\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "goToFlow",
       "version": "2.0.0",
@@ -77,7 +77,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Go to Autodetect Hardware 4k ➡️",
+      "name": "Video - Go to Autodetect Hardware 4k \u27a1\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "goToFlow",
       "version": "2.0.0",
@@ -93,7 +93,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Go to Autodetect Hardware 4k_hdr ➡️",
+      "name": "Video - Go to Autodetect Hardware 4k_hdr \u27a1\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "goToFlow",
       "version": "2.0.0",
@@ -109,7 +109,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Go to Autodetect Hardware 1440p ➡️",
+      "name": "Video - Go to Autodetect Hardware 1440p \u27a1\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "goToFlow",
       "version": "2.0.0",
@@ -125,7 +125,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Go to Autodetect Hardware 480p ➡️",
+      "name": "Video - Go to Autodetect Hardware 480p \u27a1\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "goToFlow",
       "version": "2.0.0",
@@ -141,7 +141,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Go to Autodetect Hardware 576p ➡️",
+      "name": "Video - Go to Autodetect Hardware 576p \u27a1\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "goToFlow",
       "version": "2.0.0",
@@ -157,7 +157,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Go to Autodetect Hardware 720p ➡️",
+      "name": "Video - Go to Autodetect Hardware 720p \u27a1\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "goToFlow",
       "version": "2.0.0",
@@ -173,7 +173,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Go to Autodetect Hardware 1080p ➡️",
+      "name": "Video - Go to Autodetect Hardware 1080p \u27a1\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "goToFlow",
       "version": "2.0.0",
@@ -189,7 +189,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check encoder cpu 🔍",
+      "name": "Video - Check encoder cpu \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkFlowVariable",
       "version": "1.0.0",
@@ -205,7 +205,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check encoder vaapi 🔍",
+      "name": "Video - Check encoder vaapi \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkFlowVariable",
       "version": "1.0.0",
@@ -221,7 +221,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check encoder amf 🔍",
+      "name": "Video - Check encoder amf \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkFlowVariable",
       "version": "1.0.0",
@@ -237,7 +237,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check encoder qsv 🔍",
+      "name": "Video - Check encoder qsv \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkFlowVariable",
       "version": "1.0.0",
@@ -253,7 +253,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check encoder nvenc🔍",
+      "name": "Video - Check encoder nvenc\ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkFlowVariable",
       "version": "1.0.0",
@@ -269,7 +269,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check encoder cpu 🔍",
+      "name": "Video - Check encoder cpu \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkFlowVariable",
       "version": "1.0.0",
@@ -285,7 +285,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check encoder vaapi 🔍",
+      "name": "Video - Check encoder vaapi \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkFlowVariable",
       "version": "1.0.0",
@@ -301,7 +301,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check encoder amf 🔍",
+      "name": "Video - Check encoder amf \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkFlowVariable",
       "version": "1.0.0",
@@ -317,7 +317,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check encoder qsv 🔍",
+      "name": "Video - Check encoder qsv \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkFlowVariable",
       "version": "1.0.0",
@@ -333,7 +333,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check encoder nvenc🔍",
+      "name": "Video - Check encoder nvenc\ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkFlowVariable",
       "version": "1.0.0",
@@ -349,7 +349,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check encoder cpu 🔍",
+      "name": "Video - Check encoder cpu \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkFlowVariable",
       "version": "1.0.0",
@@ -365,7 +365,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check encoder vaapi 🔍",
+      "name": "Video - Check encoder vaapi \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkFlowVariable",
       "version": "1.0.0",
@@ -381,7 +381,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check encoder amf 🔍",
+      "name": "Video - Check encoder amf \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkFlowVariable",
       "version": "1.0.0",
@@ -397,7 +397,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check encoder qsv 🔍",
+      "name": "Video - Check encoder qsv \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkFlowVariable",
       "version": "1.0.0",
@@ -413,7 +413,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check encoder nvenc🔍",
+      "name": "Video - Check encoder nvenc\ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkFlowVariable",
       "version": "1.0.0",
@@ -429,7 +429,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check encoder cpu 🔍",
+      "name": "Video - Check encoder cpu \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkFlowVariable",
       "version": "1.0.0",
@@ -445,7 +445,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check encoder vaapi 🔍",
+      "name": "Video - Check encoder vaapi \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkFlowVariable",
       "version": "1.0.0",
@@ -461,7 +461,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check encoder amf 🔍",
+      "name": "Video - Check encoder amf \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkFlowVariable",
       "version": "1.0.0",
@@ -477,7 +477,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check encoder qsv 🔍",
+      "name": "Video - Check encoder qsv \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkFlowVariable",
       "version": "1.0.0",
@@ -493,7 +493,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check encoder nvenc🔍",
+      "name": "Video - Check encoder nvenc\ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkFlowVariable",
       "version": "1.0.0",
@@ -509,7 +509,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check encoder cpu 🔍",
+      "name": "Video - Check encoder cpu \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkFlowVariable",
       "version": "1.0.0",
@@ -525,7 +525,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check encoder vaapi 🔍",
+      "name": "Video - Check encoder vaapi \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkFlowVariable",
       "version": "1.0.0",
@@ -541,7 +541,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check encoder amf 🔍",
+      "name": "Video - Check encoder amf \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkFlowVariable",
       "version": "1.0.0",
@@ -557,7 +557,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check encoder qsv 🔍",
+      "name": "Video - Check encoder qsv \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkFlowVariable",
       "version": "1.0.0",
@@ -573,7 +573,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check encoder nvenc🔍",
+      "name": "Video - Check encoder nvenc\ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkFlowVariable",
       "version": "1.0.0",
@@ -589,7 +589,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check encoder cpu 🔍",
+      "name": "Video - Check encoder cpu \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkFlowVariable",
       "version": "1.0.0",
@@ -605,7 +605,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check encoder vaapi 🔍",
+      "name": "Video - Check encoder vaapi \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkFlowVariable",
       "version": "1.0.0",
@@ -621,7 +621,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check encoder amf 🔍",
+      "name": "Video - Check encoder amf \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkFlowVariable",
       "version": "1.0.0",
@@ -637,7 +637,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check encoder qsv 🔍",
+      "name": "Video - Check encoder qsv \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkFlowVariable",
       "version": "1.0.0",
@@ -653,7 +653,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check encoder nvenc🔍",
+      "name": "Video - Check encoder nvenc\ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkFlowVariable",
       "version": "1.0.0",
@@ -669,7 +669,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check encoder cpu 🔍",
+      "name": "Video - Check encoder cpu \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkFlowVariable",
       "version": "1.0.0",
@@ -685,7 +685,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check encoder vaapi 🔍",
+      "name": "Video - Check encoder vaapi \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkFlowVariable",
       "version": "1.0.0",
@@ -701,7 +701,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check encoder amf 🔍",
+      "name": "Video - Check encoder amf \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkFlowVariable",
       "version": "1.0.0",
@@ -717,7 +717,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check encoder qsv 🔍",
+      "name": "Video - Check encoder qsv \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkFlowVariable",
       "version": "1.0.0",
@@ -733,7 +733,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check encoder nvenc🔍",
+      "name": "Video - Check encoder nvenc\ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkFlowVariable",
       "version": "1.0.0",
@@ -749,7 +749,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check encoder cpu 🔍",
+      "name": "Video - Check encoder cpu \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkFlowVariable",
       "version": "1.0.0",
@@ -765,7 +765,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check encoder vaapi 🔍",
+      "name": "Video - Check encoder vaapi \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkFlowVariable",
       "version": "1.0.0",
@@ -781,7 +781,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check encoder amf 🔍",
+      "name": "Video - Check encoder amf \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkFlowVariable",
       "version": "1.0.0",
@@ -797,7 +797,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check encoder qsv 🔍",
+      "name": "Video - Check encoder qsv \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkFlowVariable",
       "version": "1.0.0",
@@ -813,7 +813,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check encoder nvenc🔍",
+      "name": "Video - Check encoder nvenc\ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkFlowVariable",
       "version": "1.0.0",
@@ -829,7 +829,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - No encoder manually defined, attempting autodetect ⚠️",
+      "name": "Video - No encoder manually defined, attempting autodetect \u26a0\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -841,7 +841,7 @@
       "fpEnabled": true
     },
     {
-      "name": "ℹ️ We check if encoder is overriden",
+      "name": "\u2139\ufe0f We check if encoder is overriden",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -853,7 +853,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check encoder vaapi 🔍",
+      "name": "Video - Check encoder vaapi \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkFlowVariable",
       "version": "1.0.0",
@@ -869,7 +869,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check encoder amf 🔍",
+      "name": "Video - Check encoder amf \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkFlowVariable",
       "version": "1.0.0",
@@ -885,7 +885,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check encoder cpu 🔍",
+      "name": "Video - Check encoder cpu \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkFlowVariable",
       "version": "1.0.0",
@@ -901,7 +901,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check encoder qsv 🔍",
+      "name": "Video - Check encoder qsv \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkFlowVariable",
       "version": "1.0.0",
@@ -917,7 +917,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check encoder nvenc🔍",
+      "name": "Video - Check encoder nvenc\ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkFlowVariable",
       "version": "1.0.0",
@@ -933,7 +933,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Hardware Check done ℹ️",
+      "name": "Video - Hardware Check done \u2139\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -945,7 +945,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Go to Encode using cq ➡️",
+      "name": "Video - Go to Encode using cq \u27a1\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "goToFlow",
       "version": "2.0.0",
@@ -961,7 +961,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check if disable_vbr🔍",
+      "name": "Video - Check if disable_vbr\ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkFlowVariable",
       "version": "1.0.0",
@@ -977,7 +977,7 @@
       "fpEnabled": true
     },
     {
-      "name": "ℹ️ CPU Encoder",
+      "name": "\u2139\ufe0f CPU Encoder",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -989,7 +989,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Coming from vbr flow ℹ️",
+      "name": "Video - Coming from vbr flow \u2139\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -1001,7 +1001,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Target Bitrate is too close to Original File Bitrate.  Encoding with your bitrate settings is likely counterproductive.  We'll try with the -cq method, but the file may already be well optimized for your target bitrate.  If it is, we will still remux, process audio and perform other tasks ⚠️⚠️",
+      "name": "Video - Target Bitrate is too close to Original File Bitrate.  Encoding with your bitrate settings is likely counterproductive.  We'll try with the -cq method, but the file may already be well optimized for your target bitrate.  If it is, we will still remux, process audio and perform other tasks \u26a0\ufe0f\u26a0\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -1013,7 +1013,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - process video disabled ℹ️",
+      "name": "Video - process video disabled \u2139\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -1025,7 +1025,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Go to Done ➡️",
+      "name": "Video - Go to Done \u27a1\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "goToFlow",
       "version": "2.0.0",
@@ -1041,7 +1041,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check if disable_video 🔍",
+      "name": "Video - Check if disable_video \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkFlowVariable",
       "version": "1.0.0",
@@ -1058,7 +1058,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - is not hevc ℹ️",
+      "name": "Video - is not hevc \u2139\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -1070,7 +1070,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - is hevc ✅",
+      "name": "Video - is hevc \u2705",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -1082,7 +1082,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Process hevc enabled ✅",
+      "name": "Video - Process hevc enabled \u2705",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -1094,7 +1094,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Go to Done ➡️",
+      "name": "Video - Go to Done \u27a1\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "goToFlow",
       "version": "2.0.0",
@@ -1110,7 +1110,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - process hevc disabled ℹ️",
+      "name": "Video - process hevc disabled \u2139\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -1122,7 +1122,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check if do_hevc 🔍",
+      "name": "Video - Check if do_hevc \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkFlowVariable",
       "version": "1.0.0",
@@ -1138,13 +1138,13 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - crf hevc_cpu 📼",
+      "name": "Video - Encode Main Arg - crf hevc_cpu \ud83d\udcfc",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
       "inputsDB": {
         "inputArguments": "",
-        "outputArguments": "-crf {{{args.userVariables.library.v_cq}}} {{{args.variables.user.fl_cpu_quality}}} {{{args.variables.user.fl_cpu_main}}}"
+        "outputArguments": "-crf {{{args.userVariables.library.v_cq}}} {{{args.variables.user.fl_cpu_quality}}} -x265-params {{{args.variables.user.fl_cpu_main}}}"
       },
       "id": "iZuCFsZ2C",
       "position": {
@@ -1154,7 +1154,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - cq hevc_qsv 📼",
+      "name": "Video - Encode Main Arg - cq hevc_qsv \ud83d\udcfc",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -1170,7 +1170,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - cq hevc_nvenc 📼",
+      "name": "Video - Encode Main Arg - cq hevc_nvenc \ud83d\udcfc",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -1186,7 +1186,7 @@
       "fpEnabled": true
     },
     {
-      "name": "ℹ️ For cq fallback encoding method",
+      "name": "\u2139\ufe0f For cq fallback encoding method",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -1198,7 +1198,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - ffmpeg Command Quality Set cq ✅",
+      "name": "Video - ffmpeg Command Quality Set cq \u2705",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -1210,7 +1210,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - This Encoder is not available yet, if you have a good ffmpeg command share it so we can add it! ⚠️⚠️",
+      "name": "Video - This Encoder is not available yet, if you have a good ffmpeg command share it so we can add it! \u26a0\ufe0f\u26a0\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -1222,7 +1222,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - No Hardware Encoder found, using CPU ℹ️",
+      "name": "Video - No Hardware Encoder found, using CPU \u2139\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -1234,7 +1234,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_vaapi 🔍",
+      "name": "Video - Check Node Hardware Encoder hevc_vaapi \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
@@ -1249,7 +1249,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_amf 🔍",
+      "name": "Video - Check Node Hardware Encoder hevc_amf \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
@@ -1264,7 +1264,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_qsv 🔍",
+      "name": "Video - Check Node Hardware Encoder hevc_qsv \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
@@ -1279,7 +1279,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_nvenc 🔍",
+      "name": "Video - Check Node Hardware Encoder hevc_nvenc \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
@@ -1291,7 +1291,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - cq disabled ℹ️",
+      "name": "Video - cq disabled \u2139\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -1303,7 +1303,7 @@
       "fpEnabled": true
     },
     {
-      "name": "ℹ️ This is a place to add general ffmpeg flags that apply to all encoders",
+      "name": "\u2139\ufe0f This is a place to add general ffmpeg flags that apply to all encoders",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -1315,7 +1315,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Skipping Deinterlacing - setting disabled in Flow 1 Input ℹ️",
+      "name": "Video - Skipping Deinterlacing - setting disabled in Flow 1 Input \u2139\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -1327,7 +1327,7 @@
       "fpEnabled": true
     },
     {
-      "name": "VIdeo - Check do_deinterlace 🔍",
+      "name": "VIdeo - Check do_deinterlace \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkFlowVariable",
       "version": "1.0.0",
@@ -1343,7 +1343,7 @@
       "fpEnabled": true
     },
     {
-      "name": "ℹ️ This Deinterlaces .ts (TV Broadcasts)",
+      "name": "\u2139\ufe0f This Deinterlaces .ts (TV Broadcasts)",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -1355,7 +1355,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - This only works for HDR right now, not DV or HDR+ Do not use on the latter!  Playback failure could occur! ⚠️⚠️",
+      "name": "Video - This only works for HDR right now, not DV or HDR+ Do not use on the latter!  Playback failure could occur! \u26a0\ufe0f\u26a0\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -1367,7 +1367,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - No Hardware Encoder found, using CPU ℹ️",
+      "name": "Video - No Hardware Encoder found, using CPU \u2139\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -1379,7 +1379,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 4k hevc_vaapi 📼",
+      "name": "Video - Encode Main Arg - 4k hevc_vaapi \ud83d\udcfc",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -1395,7 +1395,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_vaapi 🔍",
+      "name": "Video - Check Node Hardware Encoder hevc_vaapi \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
@@ -1410,7 +1410,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 4k hevc_amf 📼",
+      "name": "Video - Encode Main Arg - 4k hevc_amf \ud83d\udcfc",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -1426,7 +1426,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_amf 🔍",
+      "name": "Video - Check Node Hardware Encoder hevc_amf \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
@@ -1441,7 +1441,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 4k hevc_qsv 📼",
+      "name": "Video - Encode Main Arg - 4k hevc_qsv \ud83d\udcfc",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -1457,7 +1457,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 4k hevc_nvenc 📼",
+      "name": "Video - Encode Main Arg - 4k hevc_nvenc \ud83d\udcfc",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -1473,7 +1473,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_qsv 🔍",
+      "name": "Video - Check Node Hardware Encoder hevc_qsv \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
@@ -1488,7 +1488,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_nvenc 🔍",
+      "name": "Video - Check Node Hardware Encoder hevc_nvenc \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
@@ -1500,7 +1500,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - This Encoder is not available yet, if you have a good ffmpeg command share it so we can add it! ⚠️⚠️",
+      "name": "Video - This Encoder is not available yet, if you have a good ffmpeg command share it so we can add it! \u26a0\ufe0f\u26a0\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -1512,13 +1512,13 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 4k libx265 CPU 📼",
+      "name": "Video - Encode Main Arg - 4k libx265 CPU \ud83d\udcfc",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
       "inputsDB": {
         "inputArguments": "",
-        "outputArguments": "-b:v {{{args.variables.bitrate_4k}}} -maxrate {{{args.variables.maxrate_4k}}} -bufsize {{{args.variables.bufsize_4k}}} -x265-params {{{args.variables.user.fl_cpu_quality}}} {{{args.variables.user.fl_cpu_main}}}"
+        "outputArguments": "-b:v {{{args.variables.bitrate_4k}}} -maxrate {{{args.variables.maxrate_4k}}} -bufsize {{{args.variables.bufsize_4k}}} {{{args.variables.user.fl_cpu_quality}}} -x265-params {{{args.variables.user.fl_cpu_main}}}"
       },
       "id": "_XU-XYw50",
       "position": {
@@ -1528,7 +1528,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - ffmpeg Command Quality Set 4k ✅",
+      "name": "Video - ffmpeg Command Quality Set 4k \u2705",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -1540,13 +1540,13 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 4k_hdr libx265 CPU 📼",
+      "name": "Video - Encode Main Arg - 4k_hdr libx265 CPU \ud83d\udcfc",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
       "inputsDB": {
         "inputArguments": "",
-        "outputArguments": "-b:v {{{args.variables.bitrate_4k_hdr}}} -maxrate {{{args.variables.maxrate_4k_hdr}}} -bufsize {{{args.variables.bufsize_4k_hdr}}} -x265-params {{{args.variables.user.fl_cpu_quality}}} {{{args.variables.user.fl_cpu_main}}}"
+        "outputArguments": "-b:v {{{args.variables.bitrate_4k_hdr}}} -maxrate {{{args.variables.maxrate_4k_hdr}}} -bufsize {{{args.variables.bufsize_4k_hdr}}} {{{args.variables.user.fl_cpu_quality}}} -x265-params {{{args.variables.user.fl_cpu_main}}}"
       },
       "id": "JKJlbvnba",
       "position": {
@@ -1556,7 +1556,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - This Encoder is not available yet, if you have a good ffmpeg command share it so we can add it! ⚠️⚠️",
+      "name": "Video - This Encoder is not available yet, if you have a good ffmpeg command share it so we can add it! \u26a0\ufe0f\u26a0\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -1568,7 +1568,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - No Hardware Encoder found, using CPU ℹ️",
+      "name": "Video - No Hardware Encoder found, using CPU \u2139\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -1580,7 +1580,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 4k_hdr hevc_vaapi 📼",
+      "name": "Video - Encode Main Arg - 4k_hdr hevc_vaapi \ud83d\udcfc",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -1596,7 +1596,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 4k_hdr hevc_amf 📼",
+      "name": "Video - Encode Main Arg - 4k_hdr hevc_amf \ud83d\udcfc",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -1612,7 +1612,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_vaapi 🔍",
+      "name": "Video - Check Node Hardware Encoder hevc_vaapi \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
@@ -1627,7 +1627,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 4k_hdr hevc_qsv 📼",
+      "name": "Video - Encode Main Arg - 4k_hdr hevc_qsv \ud83d\udcfc",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -1643,7 +1643,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_amf 🔍",
+      "name": "Video - Check Node Hardware Encoder hevc_amf \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
@@ -1658,7 +1658,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_qsv 🔍",
+      "name": "Video - Check Node Hardware Encoder hevc_qsv \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
@@ -1673,7 +1673,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_nvenc 🔍",
+      "name": "Video - Check Node Hardware Encoder hevc_nvenc \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
@@ -1685,7 +1685,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 4k_hdr hevc_nvenc 📼",
+      "name": "Video - Encode Main Arg - 4k_hdr hevc_nvenc \ud83d\udcfc",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -1701,7 +1701,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - ffmpeg Command Quality Set 4k_hdr ✅",
+      "name": "Video - ffmpeg Command Quality Set 4k_hdr \u2705",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -1713,7 +1713,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - ffmpeg Command Quality Set 1440p ✅",
+      "name": "Video - ffmpeg Command Quality Set 1440p \u2705",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -1725,7 +1725,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - This Encoder is not available yet, if you have a good ffmpeg command share it so we can add it! ⚠️⚠️",
+      "name": "Video - This Encoder is not available yet, if you have a good ffmpeg command share it so we can add it! \u26a0\ufe0f\u26a0\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -1737,7 +1737,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 1440p hevc_vaapi 📼",
+      "name": "Video - Encode Main Arg - 1440p hevc_vaapi \ud83d\udcfc",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -1753,7 +1753,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 1440p hevc_amf 📼",
+      "name": "Video - Encode Main Arg - 1440p hevc_amf \ud83d\udcfc",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -1769,7 +1769,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 1440p hevc_nvenc 📼",
+      "name": "Video - Encode Main Arg - 1440p hevc_nvenc \ud83d\udcfc",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -1785,7 +1785,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 1440p hevc_qsv 📼",
+      "name": "Video - Encode Main Arg - 1440p hevc_qsv \ud83d\udcfc",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -1801,13 +1801,13 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 1440p libx265 CPU 📼",
+      "name": "Video - Encode Main Arg - 1440p libx265 CPU \ud83d\udcfc",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
       "inputsDB": {
         "inputArguments": "",
-        "outputArguments": "-b:v {{{args.variables.bitrate_1440p}}} -maxrate {{{args.variables.maxrate_1440p}}} -bufsize {{{args.variables.bufsize_1440p}}} -x265-params {{{args.variables.user.fl_cpu_quality}}} {{{args.variables.user.fl_cpu_main}}}"
+        "outputArguments": "-b:v {{{args.variables.bitrate_1440p}}} -maxrate {{{args.variables.maxrate_1440p}}} -bufsize {{{args.variables.bufsize_1440p}}} {{{args.variables.user.fl_cpu_quality}}} -x265-params {{{args.variables.user.fl_cpu_main}}}"
       },
       "id": "i0rxcp9di",
       "position": {
@@ -1817,7 +1817,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - No Hardware Encoder found, using CPU ℹ️",
+      "name": "Video - No Hardware Encoder found, using CPU \u2139\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -1829,7 +1829,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_vaapi 🔍",
+      "name": "Video - Check Node Hardware Encoder hevc_vaapi \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
@@ -1844,7 +1844,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_amf 🔍",
+      "name": "Video - Check Node Hardware Encoder hevc_amf \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
@@ -1859,7 +1859,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_qsv 🔍",
+      "name": "Video - Check Node Hardware Encoder hevc_qsv \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
@@ -1874,7 +1874,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_nvenc 🔍",
+      "name": "Video - Check Node Hardware Encoder hevc_nvenc \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
@@ -1886,7 +1886,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - ffmpeg Command Quality Set 1080p ✅",
+      "name": "Video - ffmpeg Command Quality Set 1080p \u2705",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -1898,7 +1898,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 1080p hevc_nvenc 📼",
+      "name": "Video - Encode Main Arg - 1080p hevc_nvenc \ud83d\udcfc",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -1914,7 +1914,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 1080p hevc_qsv 📼",
+      "name": "Video - Encode Main Arg - 1080p hevc_qsv \ud83d\udcfc",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -1930,7 +1930,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 1080p hevc_amf 📼",
+      "name": "Video - Encode Main Arg - 1080p hevc_amf \ud83d\udcfc",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -1946,7 +1946,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 1080p hevc_vaapi 📼",
+      "name": "Video - Encode Main Arg - 1080p hevc_vaapi \ud83d\udcfc",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -1962,7 +1962,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - This Encoder is not available yet, if you have a good ffmpeg command share it so we can add it! ⚠️⚠️",
+      "name": "Video - This Encoder is not available yet, if you have a good ffmpeg command share it so we can add it! \u26a0\ufe0f\u26a0\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -1974,13 +1974,13 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 1080p libx265 CPU 📼",
+      "name": "Video - Encode Main Arg - 1080p libx265 CPU \ud83d\udcfc",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
       "inputsDB": {
         "inputArguments": "",
-        "outputArguments": "-b:v {{{args.variables.bitrate_1080p}}} -maxrate {{{args.variables.maxrate_1080p}}} -bufsize {{{args.variables.bufsize_1080p}}} -x265-params {{{args.variables.user.fl_cpu_quality}}} {{{args.variables.user.fl_cpu_main}}}"
+        "outputArguments": "-b:v {{{args.variables.bitrate_1080p}}} -maxrate {{{args.variables.maxrate_1080p}}} -bufsize {{{args.variables.bufsize_1080p}}} {{{args.variables.user.fl_cpu_quality}}} -x265-params {{{args.variables.user.fl_cpu_main}}}"
       },
       "id": "bP8F0AKuF",
       "position": {
@@ -1990,7 +1990,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - No Hardware Encoder found, using CPU ℹ️",
+      "name": "Video - No Hardware Encoder found, using CPU \u2139\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -2002,7 +2002,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_vaapi 🔍",
+      "name": "Video - Check Node Hardware Encoder hevc_vaapi \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
@@ -2017,7 +2017,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_amf 🔍",
+      "name": "Video - Check Node Hardware Encoder hevc_amf \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
@@ -2032,7 +2032,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_qsv 🔍",
+      "name": "Video - Check Node Hardware Encoder hevc_qsv \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
@@ -2047,7 +2047,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_nvenc 🔍",
+      "name": "Video - Check Node Hardware Encoder hevc_nvenc \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
@@ -2059,7 +2059,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - ffmpeg Command Quality Set 720p ✅",
+      "name": "Video - ffmpeg Command Quality Set 720p \u2705",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -2071,13 +2071,13 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 720p libx265 CPU 📼",
+      "name": "Video - Encode Main Arg - 720p libx265 CPU \ud83d\udcfc",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
       "inputsDB": {
         "inputArguments": "",
-        "outputArguments": "-b:v {{{args.variables.bitrate_720p}}} -maxrate {{{args.variables.maxrate_720p}}} -bufsize {{{args.variables.bufsize_720p}}} -x265-params {{{args.variables.user.fl_cpu_quality}}} {{{args.variables.user.fl_cpu_main}}}"
+        "outputArguments": "-b:v {{{args.variables.bitrate_720p}}} -maxrate {{{args.variables.maxrate_720p}}} -bufsize {{{args.variables.bufsize_720p}}} {{{args.variables.user.fl_cpu_quality}}} -x265-params {{{args.variables.user.fl_cpu_main}}}"
       },
       "id": "qQ0b9XzII",
       "position": {
@@ -2087,7 +2087,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - This Encoder is not available yet, if you have a good ffmpeg command share it so we can add it! ⚠️⚠️",
+      "name": "Video - This Encoder is not available yet, if you have a good ffmpeg command share it so we can add it! \u26a0\ufe0f\u26a0\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -2099,7 +2099,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - No Hardware Encoder found, using CPU ℹ️",
+      "name": "Video - No Hardware Encoder found, using CPU \u2139\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -2111,7 +2111,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 720p hevc_vaapi 📼",
+      "name": "Video - Encode Main Arg - 720p hevc_vaapi \ud83d\udcfc",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -2127,7 +2127,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 720p hevc_amf 📼",
+      "name": "Video - Encode Main Arg - 720p hevc_amf \ud83d\udcfc",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -2143,7 +2143,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 720p hevc_qsv 📼",
+      "name": "Video - Encode Main Arg - 720p hevc_qsv \ud83d\udcfc",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -2159,7 +2159,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 720p hevc_nvenc 📼",
+      "name": "Video - Encode Main Arg - 720p hevc_nvenc \ud83d\udcfc",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -2175,7 +2175,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_vaapi 🔍",
+      "name": "Video - Check Node Hardware Encoder hevc_vaapi \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
@@ -2190,7 +2190,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_amf 🔍",
+      "name": "Video - Check Node Hardware Encoder hevc_amf \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
@@ -2205,7 +2205,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_qsv 🔍",
+      "name": "Video - Check Node Hardware Encoder hevc_qsv \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
@@ -2220,7 +2220,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_nvenc 🔍",
+      "name": "Video - Check Node Hardware Encoder hevc_nvenc \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
@@ -2232,7 +2232,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - This Encoder is not available yet, if you have a good ffmpeg command share it so we can add it! ⚠️⚠️",
+      "name": "Video - This Encoder is not available yet, if you have a good ffmpeg command share it so we can add it! \u26a0\ufe0f\u26a0\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -2244,13 +2244,13 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 576p libx265 CPU 📼",
+      "name": "Video - Encode Main Arg - 576p libx265 CPU \ud83d\udcfc",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
       "inputsDB": {
         "inputArguments": "",
-        "outputArguments": "-b:v {{{args.variables.bitrate_576p}}} -maxrate {{{args.variables.maxrate_576p}}} -bufsize {{{args.variables.bufsize_576p}}} -x265-params {{{args.variables.user.fl_cpu_quality}}} {{{args.variables.user.fl_cpu_main}}}"
+        "outputArguments": "-b:v {{{args.variables.bitrate_576p}}} -maxrate {{{args.variables.maxrate_576p}}} -bufsize {{{args.variables.bufsize_576p}}} {{{args.variables.user.fl_cpu_quality}}} -x265-params {{{args.variables.user.fl_cpu_main}}}"
       },
       "id": "OPks33RLb",
       "position": {
@@ -2260,7 +2260,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - No Hardware Encoder found, using CPU ℹ️",
+      "name": "Video - No Hardware Encoder found, using CPU \u2139\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -2272,7 +2272,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 576p hevc_vaapi 📼",
+      "name": "Video - Encode Main Arg - 576p hevc_vaapi \ud83d\udcfc",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -2288,7 +2288,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 576p hevc_amf 📼",
+      "name": "Video - Encode Main Arg - 576p hevc_amf \ud83d\udcfc",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -2304,7 +2304,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 576phevc_qsv 📼",
+      "name": "Video - Encode Main Arg - 576phevc_qsv \ud83d\udcfc",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -2320,7 +2320,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 576p hevc_nvenc 📼",
+      "name": "Video - Encode Main Arg - 576p hevc_nvenc \ud83d\udcfc",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -2336,7 +2336,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_vaapi 🔍",
+      "name": "Video - Check Node Hardware Encoder hevc_vaapi \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
@@ -2351,7 +2351,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_amf 🔍",
+      "name": "Video - Check Node Hardware Encoder hevc_amf \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
@@ -2366,7 +2366,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_qsv 🔍",
+      "name": "Video - Check Node Hardware Encoder hevc_qsv \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
@@ -2381,7 +2381,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_nvenc 🔍",
+      "name": "Video - Check Node Hardware Encoder hevc_nvenc \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
@@ -2393,7 +2393,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - ffmpeg Command Quality Set 576p ✅",
+      "name": "Video - ffmpeg Command Quality Set 576p \u2705",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -2405,7 +2405,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - ffmpeg Command Quality Set 480p ✅",
+      "name": "Video - ffmpeg Command Quality Set 480p \u2705",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -2417,7 +2417,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - This Encoder is not available yet, if you have a good ffmpeg command share it so we can add it! ⚠️⚠️",
+      "name": "Video - This Encoder is not available yet, if you have a good ffmpeg command share it so we can add it! \u26a0\ufe0f\u26a0\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -2429,7 +2429,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - No Hardware Encoder found, using CPU ℹ️",
+      "name": "Video - No Hardware Encoder found, using CPU \u2139\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -2441,13 +2441,13 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 480p libx265 CPU 📼",
+      "name": "Video - Encode Main Arg - 480p libx265 CPU \ud83d\udcfc",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
       "inputsDB": {
         "inputArguments": "",
-        "outputArguments": "-b:v {{{args.variables.bitrate_480p}}} -maxrate {{{args.variables.maxrate_480p}}} -bufsize {{{args.variables.bufsize_480p}}} -x265-params {{{args.variables.user.fl_cpu_quality}}} {{{args.variables.user.fl_cpu_main}}}"
+        "outputArguments": "-b:v {{{args.variables.bitrate_480p}}} -maxrate {{{args.variables.maxrate_480p}}} -bufsize {{{args.variables.bufsize_480p}}} {{{args.variables.user.fl_cpu_quality}}} -x265-params {{{args.variables.user.fl_cpu_main}}}"
       },
       "id": "mCvQdZzsB",
       "position": {
@@ -2457,7 +2457,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 480p hevc_vaapi 📼",
+      "name": "Video - Encode Main Arg - 480p hevc_vaapi \ud83d\udcfc",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -2473,7 +2473,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 480p hevc_amf 📼",
+      "name": "Video - Encode Main Arg - 480p hevc_amf \ud83d\udcfc",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -2489,7 +2489,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 480p hevc_qsv 📼",
+      "name": "Video - Encode Main Arg - 480p hevc_qsv \ud83d\udcfc",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -2505,7 +2505,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_vaapi 🔍",
+      "name": "Video - Check Node Hardware Encoder hevc_vaapi \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
@@ -2520,7 +2520,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_amf 🔍",
+      "name": "Video - Check Node Hardware Encoder hevc_amf \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
@@ -2535,7 +2535,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_qsv 🔍",
+      "name": "Video - Check Node Hardware Encoder hevc_qsv \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
@@ -2550,7 +2550,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_nvenc 🔍",
+      "name": "Video - Check Node Hardware Encoder hevc_nvenc \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
@@ -2562,7 +2562,7 @@
       "fpEnabled": true
     },
     {
-      "name": "ℹ️ Need ffmpeg commands for these encoders.  Keep disabled.",
+      "name": "\u2139\ufe0f Need ffmpeg commands for these encoders.  Keep disabled.",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -2574,7 +2574,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - Encoder Type libx265 CPU 📼",
+      "name": "Video - Encode Main Arg - Encoder Type libx265 CPU \ud83d\udcfc",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -2590,7 +2590,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - This Encoder is not available yet, if you have a good ffmpeg command share it so we can add it! ⚠️⚠️",
+      "name": "Video - This Encoder is not available yet, if you have a good ffmpeg command share it so we can add it! \u26a0\ufe0f\u26a0\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -2602,7 +2602,7 @@
       "fpEnabled": true
     },
     {
-      "name": "ℹ️ We Autodetect available encoder hardware",
+      "name": "\u2139\ufe0f We Autodetect available encoder hardware",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -2614,7 +2614,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - Encoder Type hevc_vaapi 📼",
+      "name": "Video - Encode Main Arg - Encoder Type hevc_vaapi \ud83d\udcfc",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -2630,7 +2630,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - Encoder Type hevc_amf 📼",
+      "name": "Video - Encode Main Arg - Encoder Type hevc_amf \ud83d\udcfc",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -2646,7 +2646,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_vaapi 🔍",
+      "name": "Video - Check Node Hardware Encoder hevc_vaapi \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
@@ -2661,7 +2661,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_amf 🔍",
+      "name": "Video - Check Node Hardware Encoder hevc_amf \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
@@ -2676,7 +2676,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_qsv 🔍",
+      "name": "Video - Check Node Hardware Encoder hevc_qsv \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
@@ -2691,7 +2691,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - Encoder Type hevc_qsv 📼",
+      "name": "Video - Encode Main Arg - Encoder Type hevc_qsv \ud83d\udcfc",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -2707,7 +2707,7 @@
       "fpEnabled": true
     },
     {
-      "name": "ℹ️ Here we start building the ffmpeg command",
+      "name": "\u2139\ufe0f Here we start building the ffmpeg command",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -2719,7 +2719,7 @@
       "fpEnabled": true
     },
     {
-      "name": "ℹ️ Custom js to calculate the bitrates to use in the ffmpeg command.\nWe use the bitrate you configure in the library flow variable, i.e. bitrate_480p ",
+      "name": "\u2139\ufe0f Custom js to calculate the bitrates to use in the ffmpeg command.\nWe use the bitrate you configure in the library flow variable, i.e. bitrate_480p ",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -2731,7 +2731,7 @@
       "fpEnabled": true
     },
     {
-      "name": "ℹ️ Checking for AVI and skipping.  Remuxing AVI is giving me terrible results.  Probably missing metadata.  Until I find a better way, I see no reason to encode/remux AVI.",
+      "name": "\u2139\ufe0f Checking for AVI and skipping.  Remuxing AVI is giving me terrible results.  Probably missing metadata.  Until I find a better way, I see no reason to encode/remux AVI.",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -2743,7 +2743,7 @@
       "fpEnabled": true
     },
     {
-      "name": "ℹ️ You can add disable_cq = true to your library variables to skip cq attempt.",
+      "name": "\u2139\ufe0f You can add disable_cq = true to your library variables to skip cq attempt.",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -2755,7 +2755,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check disable_cq🔍",
+      "name": "Video - Check disable_cq\ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkFlowVariable",
       "version": "1.0.0",
@@ -2771,7 +2771,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - General ffmpeg command 📼",
+      "name": "Video - Encode Main Arg - General ffmpeg command \ud83d\udcfc",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -2787,7 +2787,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - Encoder Type hevc_nvenc 📼",
+      "name": "Video - Encode Main Arg - Encoder Type hevc_nvenc \ud83d\udcfc",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -2803,7 +2803,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encoding - No - Other Error ⚠️",
+      "name": "Video - Encoding - No - Other Error \u26a0\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -2815,7 +2815,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - is_ts ✅",
+      "name": "Video - is_ts \u2705",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -2827,7 +2827,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - is_hdr ✅",
+      "name": "Video - is_hdr \u2705",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -2839,7 +2839,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check is_hdr 🔍",
+      "name": "Video - Check is_hdr \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkFlowVariable",
       "version": "1.0.0",
@@ -2855,7 +2855,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Go to cp Encoding Method ➡️",
+      "name": "Video - Go to cp Encoding Method \u27a1\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "goToFlow",
       "version": "2.0.0",
@@ -2871,7 +2871,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Go to cp Encoding Method ➡️",
+      "name": "Video - Go to cp Encoding Method \u27a1\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "goToFlow",
       "version": "2.0.0",
@@ -2887,7 +2887,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Go to cp Encoding Method ➡️",
+      "name": "Video - Go to cp Encoding Method \u27a1\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "goToFlow",
       "version": "2.0.0",
@@ -2903,7 +2903,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Go to cp Encoding Method ➡️",
+      "name": "Video - Go to cp Encoding Method \u27a1\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "goToFlow",
       "version": "2.0.0",
@@ -2919,7 +2919,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Go to cp Encoding Method ➡️",
+      "name": "Video - Go to cp Encoding Method \u27a1\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "goToFlow",
       "version": "2.0.0",
@@ -2935,7 +2935,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Go to cp Encoding Method ➡️",
+      "name": "Video - Go to cp Encoding Method \u27a1\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "goToFlow",
       "version": "2.0.0",
@@ -2951,7 +2951,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Non Standard Resolution, using cq ℹ️",
+      "name": "Video - Non Standard Resolution, using cq \u2139\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -2963,7 +2963,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Build main encode ffmpeg command 📼",
+      "name": "Video - Build main encode ffmpeg command \ud83d\udcfc",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -2975,7 +2975,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - is AVI ✅",
+      "name": "Video - is AVI \u2705",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -2987,7 +2987,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Copy HDR Metadata 📼",
+      "name": "Video - Copy HDR Metadata \ud83d\udcfc",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -3003,7 +3003,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encoding - Got an error ⚠️",
+      "name": "Video - Encoding - Got an error \u26a0\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "resetFlowError",
       "version": "1.0.0",
@@ -3015,7 +3015,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Go to Done ➡️",
+      "name": "Video - Go to Done \u27a1\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "goToFlow",
       "version": "2.0.0",
@@ -3031,7 +3031,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode cq Set low_bitrate_skip 🎯",
+      "name": "Video - Encode cq Set low_bitrate_skip \ud83c\udfaf",
       "sourceRepo": "Community",
       "pluginName": "setFlowVariable",
       "version": "1.0.0",
@@ -3047,7 +3047,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Go to cp Encoding Method ➡️",
+      "name": "Video - Go to cp Encoding Method \u27a1\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "goToFlow",
       "version": "2.0.0",
@@ -3063,7 +3063,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Go to Done ➡️",
+      "name": "Video - Go to Done \u27a1\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "goToFlow",
       "version": "2.0.0",
@@ -3079,7 +3079,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Check Bitrate 4k_hdr 🔍",
+      "name": "Video - Encode Check Bitrate 4k_hdr \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkVideoBitrate",
       "version": "1.0.0",
@@ -3096,7 +3096,7 @@
       "fpEnabled": true
     },
     {
-      "name": "VIdeo - Check is_ts 🔍",
+      "name": "VIdeo - Check is_ts \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkFlowVariable",
       "version": "1.0.0",
@@ -3112,7 +3112,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Check Bitrate 4k 🔍",
+      "name": "Video - Encode Check Bitrate 4k \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkVideoBitrate",
       "version": "1.0.0",
@@ -3129,7 +3129,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Check Bitrate 1440p 🔍",
+      "name": "Video - Encode Check Bitrate 1440p \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkVideoBitrate",
       "version": "1.0.0",
@@ -3146,7 +3146,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Check Bitrate 1080p 🔍",
+      "name": "Video - Encode Check Bitrate 1080p \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkVideoBitrate",
       "version": "1.0.0",
@@ -3163,7 +3163,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Check Bitrate 720p 🔍",
+      "name": "Video - Encode Check Bitrate 720p \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkVideoBitrate",
       "version": "1.0.0",
@@ -3180,7 +3180,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Check Bitrate 576p 🔍",
+      "name": "Video - Encode Check Bitrate 576p \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkVideoBitrate",
       "version": "1.0.0",
@@ -3197,7 +3197,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Main Arg - 480p hevc_nvenc 📼",
+      "name": "Video - Encode Main Arg - 480p hevc_nvenc \ud83d\udcfc",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -3213,7 +3213,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode 4k_hdr ℹ️",
+      "name": "Video - Encode 4k_hdr \u2139\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -3225,7 +3225,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode 4k ℹ️",
+      "name": "Video - Encode 4k \u2139\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -3237,7 +3237,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode 1440p ℹ️",
+      "name": "Video - Encode 1440p \u2139\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -3249,7 +3249,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode 1080p ℹ️",
+      "name": "Video - Encode 1080p \u2139\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -3261,7 +3261,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode 720p ℹ️",
+      "name": "Video - Encode 720p \u2139\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -3273,7 +3273,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode - Execute Video Encode ⏳",
+      "name": "Video - Encode - Execute Video Encode \u23f3",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandExecute",
       "version": "1.0.0",
@@ -3285,7 +3285,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Start ffmpeg command - Encode 📼",
+      "name": "Video - Start ffmpeg command - Encode \ud83d\udcfc",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandStart",
       "version": "1.0.0",
@@ -3297,7 +3297,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Video Resolution 🔍",
+      "name": "Video - Check Video Resolution \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkVideoResolution",
       "version": "1.0.0",
@@ -3309,7 +3309,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode 480p ℹ️",
+      "name": "Video - Encode 480p \u2139\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -3321,7 +3321,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode 576p ℹ️",
+      "name": "Video - Encode 576p \u2139\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -3333,7 +3333,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Check Bitrate 480p 🔍",
+      "name": "Video - Encode Check Bitrate 480p \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkVideoBitrate",
       "version": "1.0.0",
@@ -3350,7 +3350,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Compare File Size Ratio Live 🔍",
+      "name": "Video - Compare File Size Ratio Live \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "compareFileSizeRatioLive",
       "version": "1.0.0",
@@ -3366,7 +3366,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encoding cq - Check if Live Size Error 🔍",
+      "name": "Video - Encoding cq - Check if Live Size Error \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkFlowVariable",
       "version": "1.0.0",
@@ -3382,7 +3382,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check if hevc 🔍",
+      "name": "Video - Check if hevc \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkVideoCodec",
       "version": "1.0.0",
@@ -3394,7 +3394,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Deinterlace 📼",
+      "name": "Video - Deinterlace \ud83d\udcfc",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
@@ -3409,7 +3409,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Start 🚀",
+      "name": "Video - Start \ud83d\ude80",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -3421,7 +3421,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Go to Done ➡️",
+      "name": "Video - Go to Done \u27a1\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "goToFlow",
       "version": "2.0.0",
@@ -3437,7 +3437,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Filter type of video ℹ️",
+      "name": "Video - Filter type of video \u2139\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -3449,7 +3449,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Done ✅✅",
+      "name": "Done \u2705\u2705",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -3461,7 +3461,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode using cq ℹ️",
+      "name": "Video - Encode using cq \u2139\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -3473,7 +3473,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Go To Flow - Save File ➡️",
+      "name": "Go To Flow - Save File \u27a1\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "goToFlow",
       "version": "2.0.0",
@@ -3489,7 +3489,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - JS Function to calc bitrates 🧮",
+      "name": "Video - JS Function to calc bitrates \ud83e\uddee",
       "sourceRepo": "Community",
       "pluginName": "customFunction",
       "version": "1.0.0",
@@ -3504,7 +3504,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video Check is_avi 🔍",
+      "name": "Video Check is_avi \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkFileExtension",
       "version": "1.0.0",
@@ -3519,7 +3519,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check is_hdr 🔍",
+      "name": "Video - Check is_hdr \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkFlowVariable",
       "version": "1.0.0",
@@ -3535,7 +3535,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - JS to Calculate Bitrate Failed 🚨🚨",
+      "name": "Video - JS to Calculate Bitrate Failed \ud83d\udea8\ud83d\udea8",
       "sourceRepo": "Community",
       "pluginName": "failFlow",
       "version": "1.0.0",
@@ -3547,7 +3547,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encode Failed! 🚨🚨",
+      "name": "Video - Encode Failed! \ud83d\udea8\ud83d\udea8",
       "sourceRepo": "Community",
       "pluginName": "failFlow",
       "version": "1.0.0",
@@ -3559,7 +3559,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Encoding - Yes - Live Size Error ⚠️",
+      "name": "Video - Encoding - Yes - Live Size Error \u26a0\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -3571,7 +3571,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Error - Can't Calculate Bitrate ⚠️",
+      "name": "Video - Error - Can't Calculate Bitrate \u26a0\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "resetFlowError",
       "version": "1.0.0",
@@ -3583,7 +3583,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Bitrate calculation error, let's go try fallback encoding method -cq ℹ️",
+      "name": "Video - Bitrate calculation error, let's go try fallback encoding method -cq \u2139\ufe0f",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -3595,7 +3595,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Video - Check Node Hardware Encoder hevc_nvenc 🔍",
+      "name": "Video - Check Node Hardware Encoder hevc_nvenc \ud83d\udd0d",
       "sourceRepo": "Community",
       "pluginName": "checkNodeHardwareEncoder",
       "version": "1.0.0",
@@ -3603,6 +3603,38 @@
       "position": {
         "x": 1239.7485472199648,
         "y": -2241.1156374869884
+      },
+      "fpEnabled": true
+    },
+    {
+      "name": "Video - Check is_dv (DV copy stream) \ud83d\udd0d",
+      "sourceRepo": "Community",
+      "pluginName": "checkFlowVariable",
+      "version": "1.0.0",
+      "inputsDB": {
+        "variable": "{{{args.variables.is_dv}}}",
+        "value": "true"
+      },
+      "id": "DV_check_video",
+      "position": {
+        "x": 2200.0,
+        "y": -678.0
+      },
+      "fpEnabled": true
+    },
+    {
+      "name": "Video - DV Copy Stream \ud83c\udfaf",
+      "sourceRepo": "Community",
+      "pluginName": "ffmpegCommandCustomArguments",
+      "version": "1.0.0",
+      "inputsDB": {
+        "inputArguments": "",
+        "outputArguments": "-c:v copy -bsf:v hevc_metadata -map_metadata 0"
+      },
+      "id": "DV_copy_video",
+      "position": {
+        "x": 2200.0,
+        "y": -560.0
       },
       "fpEnabled": true
     }
@@ -5968,13 +6000,6 @@
       "id": "4f1SUATzp"
     },
     {
-      "source": "K_Z-TiFwk",
-      "sourceHandle": "1",
-      "target": "40ui-45u1",
-      "targetHandle": null,
-      "id": "p0nfnJ-kn"
-    },
-    {
       "source": "40ui-45u1",
       "sourceHandle": "2",
       "target": "8C0OxWjcR",
@@ -5994,6 +6019,34 @@
       "target": "UveiLLkBS",
       "targetHandle": null,
       "id": "n1RLUyR47"
+    },
+    {
+      "source": "K_Z-TiFwk",
+      "sourceHandle": "1",
+      "target": "DV_check_video",
+      "targetHandle": null,
+      "id": "DV_e_cq_to_dv_check"
+    },
+    {
+      "source": "DV_check_video",
+      "sourceHandle": "1",
+      "target": "DV_copy_video",
+      "targetHandle": null,
+      "id": "DV_e_dv_check_to_copy"
+    },
+    {
+      "source": "DV_copy_video",
+      "sourceHandle": "1",
+      "target": "UveiLLkBS",
+      "targetHandle": null,
+      "id": "DV_e_copy_to_done"
+    },
+    {
+      "source": "DV_check_video",
+      "sourceHandle": "2",
+      "target": "40ui-45u1",
+      "targetHandle": null,
+      "id": "DV_e_dv_check_false_hdr"
     }
   ]
 }
