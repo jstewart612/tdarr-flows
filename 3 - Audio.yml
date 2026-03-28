@@ -490,7 +490,7 @@
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
       "inputsDB": {
-        "outputArguments": "-c:v copy -c:a:0 libopus -b:a {{{args.variables.bitrate_audio_2}}} -ac 1"
+        "outputArguments": "-c:v copy -c:a:0 libopus -b:a {{{args.variables.bitrate_audio_1}}} -ac 1"
       },
       "id": "O_9LOpNF0",
       "position": {
@@ -917,7 +917,7 @@
       "pluginName": "customFunction",
       "version": "1.0.0",
       "inputsDB": {
-        "code": "module.exports = async (args) => {\n  // Define lossless audio codecs\nconst losslessCodecs = [\"alac\", \"truehd\", \"ape\", \"wmav1\", \"wmav2\", \"flac\", \"mlp\", \"shorten\", \"pcm_alaw\", \"pcm_bluray\", \"pcm_dvd\", \"pcm_f32be\", \"pcm_f32le\", \"pcm_f64be\", \"pcm_f64le\", \"pcm_mulaw\", \"pcm_s16be\", \"pcm_s16be_planar\", \"pcm_s16le\", \"pcm_s16le_planar\", \"pcm_s24be\", \"pcm_s24daud\", \"pcm_s24le\", \"pcm_s24le_planar\", \"pcm_s32be\", \"pcm_s32le\", \"pcm_s32le_planar\", \"pcm_s64be\", \"pcm_s64le\", \"pcm_s8\", \"pcm_s8_planar\", \"pcm_u16be\", \"pcm_u16le\", \"pcm_u24be\", \"pcm_u24le\", \"pcm_u32be\", \"pcm_u32le\", \"pcm_u8\", \"pcm_vidc\", \"sonicls\", \"tta\", \"wavpack\"];\n  \n  // Check if the audio codec of the file is in the lossless list\n  const streams = args.inputFileObj.ffProbeData.streams || [];\n  let isLossless = false;\n\n  for (const stream of streams) {\n    if (stream.codec_type === \"audio\" && losslessCodecs.includes(stream.codec_name.toLowerCase())) {\n      isLossless = true;\n      break;\n    }\n  }\n\n  // Tag the file as `is_audio_lossless` if it meets the condition\n  args.variables.is_audio_lossless = isLossless;\n\n  return {\n    outputFileObj: args.inputFileObj,\n    outputNumber: 1, // Continue the workflow\n    variables: args.variables, // Pass the updated variables\n  };\n};\n"
+        "code": "module.exports = async (args) => {\n  // Define lossless audio codecs\nconst losslessCodecs = [\"alac\", \"truehd\", \"ape\", \"flac\", \"mlp\", \"shorten\", \"pcm_alaw\", \"pcm_bluray\", \"pcm_dvd\", \"pcm_f32be\", \"pcm_f32le\", \"pcm_f64be\", \"pcm_f64le\", \"pcm_mulaw\", \"pcm_s16be\", \"pcm_s16be_planar\", \"pcm_s16le\", \"pcm_s16le_planar\", \"pcm_s24be\", \"pcm_s24daud\", \"pcm_s24le\", \"pcm_s24le_planar\", \"pcm_s32be\", \"pcm_s32le\", \"pcm_s32le_planar\", \"pcm_s64be\", \"pcm_s64le\", \"pcm_s8\", \"pcm_s8_planar\", \"pcm_u16be\", \"pcm_u16le\", \"pcm_u24be\", \"pcm_u24le\", \"pcm_u32be\", \"pcm_u32le\", \"pcm_u8\", \"pcm_vidc\", \"sonicls\", \"tta\", \"wavpack\"];\n  \n  // Check if the audio codec of the file is in the lossless list\n  const streams = args.inputFileObj.ffProbeData.streams || [];\n  let isLossless = false;\n\n  for (const stream of streams) {\n    if (stream.codec_type === \"audio\" && (\n      (losslessCodecs.includes(stream.codec_name.toLowerCase())) ||\n      (stream.codec_name === \"dca\" && (stream.profile || \"\").includes(\"MA\") || \n       stream.codec_name === \"dca\" && (stream.profile || \"\").includes(\"X \") || \n       stream.codec_name === \"dca\" && (stream.profile || \"\").includes(\"HRA\"))\n    )) {\n      isLossless = true;\n      break;\n    }\n  }\n\n  // Tag the file as `is_audio_lossless` if it meets the condition\n  args.variables.is_audio_lossless = isLossless;\n\n  return {\n    outputFileObj: args.inputFileObj,\n    outputNumber: 1, // Continue the workflow\n    variables: args.variables, // Pass the updated variables\n  };\n};\n"
       },
       "id": "evtek_5dF",
       "position": {
@@ -1716,7 +1716,7 @@
       "pluginName": "ffmpegCommandCustomArguments",
       "version": "1.0.0",
       "inputsDB": {
-        "outputArguments": "-c:v copy -c:a:0 libopus -b:a {{{args.variables.bitrate_audio_8}}} -mapping_family 1"
+        "outputArguments": "-c:v copy -c:a:0 libopus -b:a {{{args.variables.bitrate_audio_8}}} -mapping_family 1 -ac 8"
       },
       "id": "rWuso2nsU",
       "position": {
