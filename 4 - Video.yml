@@ -3652,6 +3652,18 @@
       "fpEnabled": true
     },
     {
+      "name": "Video - DV Begin ffmpeg Command 📼",
+      "sourceRepo": "Community",
+      "pluginName": "ffmpegCommandStart",
+      "version": "1.0.0",
+      "id": "DV_cmd_start",
+      "position": {
+        "x": 2200.0,
+        "y": -630.0
+      },
+      "fpEnabled": true
+    },
+    {
       "name": "Video - DV Copy Stream 🎯",
       "sourceRepo": "Community",
       "pluginName": "ffmpegCommandCustomArguments",
@@ -3664,6 +3676,18 @@
       "position": {
         "x": 2200.0,
         "y": -560.0
+      },
+      "fpEnabled": true
+    },
+    {
+      "name": "Video - DV Execute ffmpeg Command ⏳",
+      "sourceRepo": "Community",
+      "pluginName": "ffmpegCommandExecute",
+      "version": "1.0.0",
+      "id": "DV_cmd_execute",
+      "position": {
+        "x": 2200.0,
+        "y": -490.0
       },
       "fpEnabled": true
     }
@@ -6059,16 +6083,37 @@
     {
       "source": "DV_check_video",
       "sourceHandle": "1",
+      "target": "DV_cmd_start",
+      "targetHandle": null,
+      "id": "DV_e_dv_check_to_start"
+    },
+    {
+      "source": "DV_cmd_start",
+      "sourceHandle": "1",
       "target": "DV_copy_video",
       "targetHandle": null,
-      "id": "DV_e_dv_check_to_copy"
+      "id": "DV_e_start_to_copy"
     },
     {
       "source": "DV_copy_video",
       "sourceHandle": "1",
+      "target": "DV_cmd_execute",
+      "targetHandle": null,
+      "id": "DV_e_copy_to_execute"
+    },
+    {
+      "source": "DV_cmd_execute",
+      "sourceHandle": "1",
       "target": "UveiLLkBS",
       "targetHandle": null,
-      "id": "DV_e_copy_to_done"
+      "id": "DV_e_execute_to_done"
+    },
+    {
+      "source": "DV_cmd_execute",
+      "sourceHandle": "2",
+      "target": "UveiLLkBS",
+      "targetHandle": null,
+      "id": "DV_e_execute_err_to_done"
     },
     {
       "source": "DV_check_video",
