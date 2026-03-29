@@ -377,7 +377,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Save File - Delete Original File Complete ✅",
+      "name": "Save File - Delete .old File Complete ✅",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -389,7 +389,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Save File - Move Complete ✅",
+      "name": "Save File - In-Place Replace Complete ✅",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -401,13 +401,12 @@
       "fpEnabled": true
     },
     {
-      "name": "File Save - Move To Directory Done ⏳",
+      "name": "File Save - In-Place Replace (.new/.old) ⏳",
       "sourceRepo": "Community",
-      "pluginName": "moveToDirectory",
-      "version": "2.0.0",
+      "pluginName": "customFunction",
+      "version": "1.0.0",
       "inputsDB": {
-        "keepRelativePath": "true",
-        "outputDirectory": "{{{args.userVariables.library.output_dir_done}}}"
+        "code": "module.exports = async (args) => { const fs = require('fs'); const originalFile = args.inputFileObj._id; const currentFile = args.inputFileObj.file; const newFile = originalFile + '.new'; const oldFile = originalFile + '.old'; try { fs.copyFileSync(currentFile, newFile); console.log('in_place_replace: copied to .new: ' + newFile); fs.renameSync(originalFile, oldFile); console.log('in_place_replace: moved original to .old: ' + oldFile); fs.renameSync(newFile, originalFile); console.log('in_place_replace: moved .new to original path: ' + originalFile); try { fs.unlinkSync(currentFile); } catch(e2) {} args.inputFileObj.file = originalFile; return { outputFileObj: args.inputFileObj, outputNumber: 1, variables: args.variables }; } catch(e) { console.log('in_place_replace: ERROR: ' + e.message); return { outputFileObj: args.inputFileObj, outputNumber: 2, variables: args.variables }; } };"
       },
       "id": "nSj2dyRzi",
       "position": {
@@ -631,13 +630,12 @@
       "fpEnabled": true
     },
     {
-      "name": "Save File - Delete Original File & Empty Folder ⏳",
+      "name": "Save File - Delete .old File ⏳",
       "sourceRepo": "Community",
-      "pluginName": "deleteFile",
+      "pluginName": "customFunction",
       "version": "1.0.0",
       "inputsDB": {
-        "fileToDelete": "originalFile",
-        "deleteParentFolderIfEmpty": "true"
+        "code": "module.exports = async (args) => { const fs = require('fs'); const oldFile = args.inputFileObj._id + '.old'; try { if (fs.existsSync(oldFile)) { fs.unlinkSync(oldFile); console.log('delete_old_file: deleted ' + oldFile); } else { console.log('delete_old_file: .old not found, skipping: ' + oldFile); } return { outputFileObj: args.inputFileObj, outputNumber: 1, variables: args.variables }; } catch(e) { console.log('delete_old_file: ERROR: ' + e.message); return { outputFileObj: args.inputFileObj, outputNumber: 2, variables: args.variables }; } };"
       },
       "id": "ff-SxMjZl",
       "position": {
@@ -671,7 +669,7 @@
       "fpEnabled": true
     },
     {
-      "name": "Save File - Bypass Delete/Move original file for Testing ⚠️⚠️",
+      "name": "Save File - test_mode=true: .old file kept (original preserved) ⚠️⚠️",
       "sourceRepo": "Community",
       "pluginName": "comment",
       "version": "1.0.0",
@@ -815,7 +813,7 @@
     },
     {
       "source": "ff-SxMjZl",
-      "sourceHandle": "err1",
+      "sourceHandle": "2",
       "target": "aH-0hMvAP",
       "targetHandle": null,
       "id": "-3fv3Jybu"
@@ -934,7 +932,7 @@
     },
     {
       "source": "nSj2dyRzi",
-      "sourceHandle": "err1",
+      "sourceHandle": "2",
       "target": "naryrAvWB",
       "targetHandle": null,
       "id": "-HNFs7W_2"
