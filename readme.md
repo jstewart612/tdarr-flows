@@ -53,11 +53,9 @@ I broke it down into 5 steps/flows:
 
 # In-Place Replacement Setup
 
-To transcode files and replace them at their original path:
+Files are always replaced at their original path using a `.new`/`.old` swap — no `output_dir_done` configuration needed.
 
-- Set `output_dir_done` to the same root as your library (e.g. `/media/Movies`)
-- Enable `keepRelativePath` in library output settings
-- Set `test_mode = true` until you have validated the output quality
+- Set `test_mode = true` until you have validated the output quality (keeps `.old` alongside the replaced file for comparison)
 
 # Known Limitations
   - .ts files in 720p often end up with an unexpected bitrate.  Have not been able to figure out why yet.
@@ -74,8 +72,6 @@ Audio bitrates and cutoff are set PER CHANNEL.  We use that to calculate based o
 # Required Library Variables
 ```
 test_mode true # true = will not delete source file.  False = will delete source file.  Without source files won't delete.
-
-output_dir_done /media/4_done # path from within tdarr
 
 output_dir_review /media/4_done_review # if something didn't go right, we move to review folder.
 

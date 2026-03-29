@@ -1040,13 +1040,10 @@
     {
       "name": "Move Extracted Subs out of Cache ⏳",
       "sourceRepo": "Community",
-      "pluginName": "copyMoveFolderContent",
+      "pluginName": "customFunction",
       "version": "1.0.0",
       "inputsDB": {
-        "sourceDirectory": "workingDirectory",
-        "copyOrMove": "move",
-        "outputDirectory": "{{{args.userVariables.library.output_dir_done}}}",
-        "fileExtensions": "srt,ass,sub,idx"
+        "code": "module.exports = async (args) => { const fs = require('fs'); const path = require('path'); const originalDir = path.dirname(args.inputFileObj._id); const workDir = path.dirname(args.inputFileObj.file); const exts = ['.srt', '.ass', '.sub', '.idx']; try { const files = fs.readdirSync(workDir); let moved = 0; for (const f of files) { if (exts.some(e => f.toLowerCase().endsWith(e))) { const src = path.join(workDir, f); const dst = path.join(originalDir, f); fs.renameSync(src, dst); console.log('move_subs: moved ' + f + ' -> ' + originalDir); moved++; } } console.log('move_subs: total moved=' + moved); return { outputFileObj: args.inputFileObj, outputNumber: 1, variables: args.variables }; } catch(e) { console.log('move_subs: ERROR: ' + e.message); return { outputFileObj: args.inputFileObj, outputNumber: 2, variables: args.variables }; } };"
       },
       "id": "nAm2l1adq",
       "position": {
@@ -1406,7 +1403,7 @@
     },
     {
       "source": "nAm2l1adq",
-      "sourceHandle": "err1",
+      "sourceHandle": "2",
       "target": "QEf_j7ip0",
       "targetHandle": null,
       "id": "1O4RGPptg"
