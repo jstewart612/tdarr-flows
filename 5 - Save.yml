@@ -731,6 +731,21 @@
         "y": 1758.6695722428103
       },
       "fpEnabled": true
+    },
+    {
+      "name": "Save File - Notify Plex & Jellyfin 📡",
+      "sourceRepo": "Community",
+      "pluginName": "customFunction",
+      "version": "1.0.0",
+      "inputsDB": {
+        "code": "module.exports = async (args) => { const http = require('http'); const https = require('https'); const path = require('path'); const lib = (args.userVariables && args.userVariables.library) ? args.userVariables.library : {}; const plexUrl = (lib.plex_url || '').replace(/\\/$/, ''); const plexToken = lib.plex_token || ''; const plexLibraryId = lib.plex_library_id || ''; const jellyfinUrl = (lib.jellyfin_url || '').replace(/\\/$/, ''); const jellyfinToken = lib.jellyfin_token || ''; const filePath = args.inputFileObj._id || args.inputFileObj.file || ''; const request = (urlStr, method, body, headers) => new Promise((resolve) => { try { const parsed = new URL(urlStr); const mod = parsed.protocol === 'https:' ? https : http; const opts = { hostname: parsed.hostname, port: parsed.port, path: parsed.pathname + parsed.search, method: method || 'GET', headers: headers || {} }; if (body) { const bodyStr = JSON.stringify(body); opts.headers['Content-Type'] = 'application/json'; opts.headers['Content-Length'] = Buffer.byteLength(bodyStr); const req = mod.request(opts, (res) => { res.resume(); resolve(res.statusCode); }); req.on('error', (e) => { console.log('request error: ' + e.message); resolve(0); }); req.write(bodyStr); req.end(); } else { const req = mod.request(opts, (res) => { res.resume(); resolve(res.statusCode); }); req.on('error', (e) => { console.log('request error: ' + e.message); resolve(0); }); req.end(); } } catch(e) { console.log('request error: ' + e.message); resolve(0); } }); if (plexUrl && plexToken) { try { const sectionPart = plexLibraryId ? 'sections/' + plexLibraryId + '/' : 'sections/all/'; const encodedPath = encodeURIComponent(path.dirname(filePath)); const plexRefreshUrl = plexUrl + '/library/' + sectionPart + 'refresh?path=' + encodedPath + '&X-Plex-Token=' + plexToken; const status = await request(plexRefreshUrl, 'GET'); console.log('notify_plex: status=' + status + ' path=' + filePath); } catch(e) { console.log('notify_plex: ERROR: ' + e.message); } } else { console.log('notify_plex: skipped (plex_url or plex_token not configured)'); } if (jellyfinUrl && jellyfinToken) { try { const jellyfinUpdateUrl = jellyfinUrl + '/Library/Media/Updated'; const body = { Updates: [{ Path: filePath, UpdateType: 'Modified' }] }; const headers = { Authorization: 'MediaBrowser Token=\"' + jellyfinToken + '\"' }; const status = await request(jellyfinUpdateUrl, 'POST', body, headers); console.log('notify_jellyfin: status=' + status + ' path=' + filePath); } catch(e) { console.log('notify_jellyfin: ERROR: ' + e.message); } } else { console.log('notify_jellyfin: skipped (jellyfin_url or jellyfin_token not configured)'); } return { outputFileObj: args.inputFileObj, outputNumber: 1, variables: args.variables }; };"
+      },
+      "id": "ntfyPlxJf1",
+      "position": {
+        "x": 793.6445865571905,
+        "y": 2560.0
+      },
+      "fpEnabled": true
     }
   ],
   "flowEdges": [
@@ -905,7 +920,7 @@
     {
       "source": "WgX98LQev",
       "sourceHandle": "1",
-      "target": "ko1ZB0KWL",
+      "target": "ntfyPlxJf1",
       "targetHandle": null,
       "id": "096ju3-2d"
     },
@@ -996,7 +1011,7 @@
     {
       "source": "YshczgnWQ",
       "sourceHandle": "1",
-      "target": "ko1ZB0KWL",
+      "target": "ntfyPlxJf1",
       "targetHandle": null,
       "id": "J-o3ZlUEt"
     },
@@ -1167,6 +1182,13 @@
       "target": "ZOw6a-NGX",
       "targetHandle": null,
       "id": "bVCkm7n_i"
+    },
+    {
+      "source": "ntfyPlxJf1",
+      "sourceHandle": "1",
+      "target": "ko1ZB0KWL",
+      "targetHandle": null,
+      "id": "ntfyEdge01"
     }
   ]
 }

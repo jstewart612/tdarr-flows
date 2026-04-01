@@ -120,6 +120,16 @@ do_av1 = true # Re-encode files that are already AV1? Default: skip AV1 source f
 
 encoder = nvenc/qsv/amf/vaapi/cpu - Override Encoder Autodetect and manually set what encoder to use
 
+plex_url = http://192.168.1.100:32400 # Plex server URL. If set alongside plex_token, triggers a library scan after each file is saved.
+
+plex_token = xxxxxxxxxxxxxxxxxxxx # Plex authentication token. To find it: open Plex Web, open browser DevTools (F12) > Network tab, click any media item, and look for X-Plex-Token in any request URL.
+
+plex_library_id = 1 # Optional. Plex library section ID to scope the scan (faster). If omitted, all sections are refreshed. Find it in Plex > Library > Edit > (URL contains /sections/N/).
+
+jellyfin_url = http://192.168.1.100:8096 # Jellyfin server URL. If set alongside jellyfin_token, notifies Jellyfin of the specific updated file (no full library scan).
+
+jellyfin_token = xxxxxxxxxxxxxxxxxxxx # Jellyfin API key (Dashboard > API Keys > + New Key). Uses POST /Library/Media/Updated with the exact file path.
+
 ```
 
 # Quality Examples
