@@ -401,13 +401,26 @@
       "fpEnabled": true
     },
     {
-      "name": "File Save - In-Place Replace (.new/.old) ⏳",
+      "name": "Save File - Require Mapped Node 🔀",
       "sourceRepo": "Community",
-      "pluginName": "customFunction",
+      "pluginName": "tagsWorkerType",
       "version": "1.0.0",
       "inputsDB": {
-        "code": "module.exports = async (args) => { if (process.platform === 'win32') { return { outputFileObj: args.inputFileObj, outputNumber: 1, variables: args.variables }; } const { spawnSync } = require('child_process'); const uid = 568; const gid = 568; const originalFile = typeof args.originalLibraryFile === 'string' ? args.originalLibraryFile : (args.originalLibraryFile && (args.originalLibraryFile.file || args.originalLibraryFile._id)); const currentFile = args.inputFileObj.file; const newFile = originalFile + '.new'; const oldFile = originalFile + '.old'; let step = 'init'; try { step = 'copy'; const cp = spawnSync('/bin/cp', ['--', currentFile, newFile], { uid, gid }); if (cp.status !== 0) throw new Error('cp failed: ' + (cp.stderr ? cp.stderr.toString() : '') + (cp.error ? cp.error.message : '')); step = 'mv_to_old'; const mv1 = spawnSync('/bin/mv', ['--', originalFile, oldFile], { uid, gid }); if (mv1.status !== 0) throw new Error('mv to .old failed: ' + (mv1.stderr ? mv1.stderr.toString() : '') + (mv1.error ? mv1.error.message : '')); step = 'mv_to_orig'; const mv2 = spawnSync('/bin/mv', ['--', newFile, originalFile], { uid, gid }); if (mv2.status !== 0) throw new Error('mv .new to orig failed: ' + (mv2.stderr ? mv2.stderr.toString() : '') + (mv2.error ? mv2.error.message : '')); args.inputFileObj.file = originalFile; args.inputFileObj._id = originalFile; return { outputFileObj: args.inputFileObj, outputNumber: 1, variables: args.variables }; } catch(e) { const errMsg = 'in_place_replace ERROR [' + step + ']: ' + e.message + ' | orig=' + originalFile + ' | cur=' + currentFile; args.variables.user = args.variables.user || {}; args.variables.user.in_place_error = errMsg; return { outputFileObj: args.inputFileObj, outputNumber: 2, variables: args.variables }; } };"
+        "requiredWorkerType": "CPUorGPU",
+        "requiredNodeTags": "mapped"
       },
+      "id": "tagsMapped01",
+      "position": {
+        "x": 1450,
+        "y": 1625.789840078566
+      },
+      "fpEnabled": true
+    },
+    {
+      "name": "Save File - Replace Original File ✅",
+      "sourceRepo": "Community",
+      "pluginName": "replaceOriginalFile",
+      "version": "1.0.0",
       "id": "nSj2dyRzi",
       "position": {
         "x": 1708.79024633776,
@@ -946,11 +959,12 @@
       "id": "C62n0nIzk"
     },
     {
-      "source": "nSj2dyRzi",
-      "sourceHandle": "2",
-      "target": "naryrAvWB",
+    {
+      "source": "tagsMapped01",
+      "sourceHandle": "1",
+      "target": "nSj2dyRzi",
       "targetHandle": null,
-      "id": "-HNFs7W_2"
+      "id": "tagsMappedEdge01"
     },
     {
       "source": "u5QtDQOjl",
@@ -1109,7 +1123,7 @@
     {
       "source": "VfgJdUHHI",
       "sourceHandle": "2",
-      "target": "nSj2dyRzi",
+      "target": "tagsMapped01",
       "targetHandle": null,
       "id": "bRVb4ISKC"
     },
