@@ -401,22 +401,6 @@
       "fpEnabled": true
     },
     {
-      "name": "Save File - Require Mapped Node 🔀",
-      "sourceRepo": "Community",
-      "pluginName": "tagsWorkerType",
-      "version": "1.0.0",
-      "inputsDB": {
-        "requiredWorkerType": "CPUorGPU",
-        "requiredNodeTags": "mapped"
-      },
-      "id": "tagsMapped01",
-      "position": {
-        "x": 1450,
-        "y": 1625.789840078566
-      },
-      "fpEnabled": true
-    },
-    {
       "name": "Save File - Replace Original File ✅",
       "sourceRepo": "Community",
       "pluginName": "replaceOriginalFile",
@@ -959,13 +943,6 @@
       "id": "C62n0nIzk"
     },
     {
-      "source": "tagsMapped01",
-      "sourceHandle": "1",
-      "target": "nSj2dyRzi",
-      "targetHandle": null,
-      "id": "tagsMappedEdge01"
-    },
-    {
       "source": "u5QtDQOjl",
       "sourceHandle": "2",
       "target": "ff-SxMjZl",
@@ -1122,7 +1099,7 @@
     {
       "source": "VfgJdUHHI",
       "sourceHandle": "2",
-      "target": "tagsMapped01",
+      "target": "nSj2dyRzi",
       "targetHandle": null,
       "id": "bRVb4ISKC"
     },
