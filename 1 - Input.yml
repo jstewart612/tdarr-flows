@@ -1171,6 +1171,23 @@
         "y": 900.0
       },
       "fpEnabled": true
+    },
+    {
+      "name": "Input - Skip Files ≤ 100 MB ⏭️",
+      "sourceRepo": "Community",
+      "pluginName": "checkFileSize",
+      "version": "1.0.0",
+      "inputsDB": {
+        "unit": "MB",
+        "greaterThan": "0",
+        "lessThan": "100"
+      },
+      "id": "chkSz100MB",
+      "position": {
+        "x": 353.0,
+        "y": -1619.0
+      },
+      "fpEnabled": true
     }
   ],
   "flowEdges": [
@@ -1184,9 +1201,16 @@
     {
       "source": "OO_HK73Ms",
       "sourceHandle": "1",
-      "target": "EOKWqH2pd",
+      "target": "chkSz100MB",
       "targetHandle": null,
       "id": "A0uJHeXoz"
+    },
+    {
+      "source": "chkSz100MB",
+      "sourceHandle": "2",
+      "target": "EOKWqH2pd",
+      "targetHandle": null,
+      "id": "edgeSz2Nxt"
     },
     {
       "source": "GxxhjqFpX",
